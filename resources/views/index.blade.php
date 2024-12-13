@@ -1,6 +1,7 @@
 @extends('Layouts.master')
 @section('title', 'Homepage')
 @section('contents')
+
 <main>
     <!-- slideshow content begin -->
     <div class="uk-section uk-padding-remove-vertical in-slideshow-gradient">
@@ -239,17 +240,33 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-grid uk-flex uk-flex-center uk-background-contain uk-background-top-center in-testimoni-wrap" style="background-image: url(img/in-wave-testibg.jpg);">
-                <div class="uk-width-3-4@m">
-                    <div class="uk-flex uk-flex-middle" data-uk-grid> 
-                        <div class="uk-width-1-1 uk-width-auto@m uk-flex-last uk-flex-first@m">
-                            <img class="uk-align-center uk-margin-remove-bottom" src="img/blockit/in-testimoni-1.png" alt="client-testimoni" width="300" height="317">
-                        </div>
-                        <div class="uk-width-1-1 uk-width-expand@m">
-                            <blockquote>
-                                <p class="uk-margin-bottom uk-text-large">It surpassed my expectations. Trading on the platform is excellent and it allows for making accurate graphical analyses of the market.</p>
-                                <footer>Anthony Torres<br><cite class="uk-label in-label-small">Customer since 2012</cite></footer>
-                            </blockquote>
+            
+        </div>
+    </div>
+    <div class="uk-section in-wave-14">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1@m">
+                    <div class="uk-grid uk-flex uk-flex-center uk-margin-large-top">
+                        <div class="uk-width-3-5@m">
+                            <div class="uk-card uk-card-default uk-card-body uk-text-center uk-border-rounded uk-box-shadow-small in-wave-14-card">
+                                <span class="uk-label in-label-small uk-text-uppercase uk-margin-small-right">EXPLORE</span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing reprehen elit. <a href="#">Learn more</a>
+                            </div>
+                            <div class="uk-grid-collapse uk-grid-divider uk-child-width-1-3@m uk-text-center uk-margin-top uk-margin-small-bottom" data-uk-grid>
+                                <div>
+                                    <i class="fas fa-headset fa-lg uk-margin-small-right uk-text-primary"></i>
+                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">Award-winning support</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-university fa-lg uk-margin-small-right uk-text-primary"></i>
+                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">Regulated by the FCA,UK</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-history fa-lg uk-margin-small-right uk-text-primary"></i>
+                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">30 years experience</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -282,30 +299,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="uk-width-1-1@m">
-                    <div class="uk-grid uk-flex uk-flex-center uk-margin-large-top">
-                        <div class="uk-width-3-5@m">
-                            <div class="uk-card uk-card-default uk-card-body uk-text-center uk-border-rounded uk-box-shadow-small in-wave-14-card">
-                                <span class="uk-label in-label-small uk-text-uppercase uk-margin-small-right">EXPLORE</span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing reprehen elit. <a href="#">Learn more</a>
-                            </div>
-                            <div class="uk-grid-collapse uk-grid-divider uk-child-width-1-3@m uk-text-center uk-margin-top uk-margin-small-bottom" data-uk-grid>
-                                <div>
-                                    <i class="fas fa-headset fa-lg uk-margin-small-right uk-text-primary"></i>
-                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">Award-winning support</p>
-                                </div>
-                                <div>
-                                    <i class="fas fa-university fa-lg uk-margin-small-right uk-text-primary"></i>
-                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">Regulated by the FCA,UK</p>
-                                </div>
-                                <div>
-                                    <i class="fas fa-history fa-lg uk-margin-small-right uk-text-primary"></i>
-                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">30 years experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

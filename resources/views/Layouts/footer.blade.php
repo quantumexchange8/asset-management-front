@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-width-1-1 uk-margin-large-top in-offset-bottom-10">
+            {{-- <div class="uk-width-1-1 uk-margin-large-top in-offset-bottom-10">
                 <h6><i class="fas fa-exclamation-triangle uk-text-danger uk-margin-small-right"></i>Risk warning</h6>
                 <p class="uk-text-small">The financial products offered via this website include digitals, contracts for difference (CFDs), and other complex derivatives and financial products. Trading options may not be suitable for everyone. Trading CFDs carries a high level of risk since leverage can work both to your advantage and disadvantage. As a result, the products offered on this website may not be suitable for all investors because of the risk of losing all of your invested capital. You should never invest money that you cannot afford to lose, and never trade with borrowed money. Before trading in the complex financial products offered, please be sure to understand the risks involved and learn about <a href="#">Secure and responsible trading.</a></p>
                 <hr>
@@ -86,7 +86,7 @@
                         <!-- social media end -->
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>        
 </div>
@@ -95,12 +95,13 @@
         <div class="uk-grid">
             <div class="uk-width-3-4@m uk-visible@m">
                 <ul class="uk-subnav uk-subnav-divider">
-                    <li><a href="#">Regulations</a></li>
-                    <li><a href="#">Legal documents</a></li>
-                    <li><a href="#">Important information</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Public relations</a></li>
-                    <li><a href="#">Careers</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/service">Service</a></li>
+                    <li><a href="/insight">Insight</a></li>
+                    <li><a href="/performance">performance</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="uk-width-expand@m uk-text-right@m">

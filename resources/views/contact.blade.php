@@ -2,6 +2,12 @@
 @section('title', 'Contact Us')
 
 @section('contents')
+        <!-- Display Success Message -->
+        @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+        @endif
     <!-- section content begin -->
     <div class="uk-section">
         <div class="uk-container">
@@ -44,8 +50,11 @@
                                     <div class="uk-width-1-1">
                                         <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="Message"></textarea>
                                     </div>
+
+                                    <input type="hidden" id="recaptcha_token" name="recaptcha_token">
+
                                     <div class="uk-width-1-1">
-                                        <button class="uk-button uk-button-primary uk-border-rounded uk-align-right" id="sendemail" type="submit" name="submit">Send Message</button>
+                                        <button class="uk-button uk-button-primary uk-border-rounded uk-align-right" type="submit" name="submit">Send Message</button>
                                     </div>
                                 </form>
                             </div>
@@ -69,18 +78,19 @@
 </script>
 <script>
     $(document).ready(function() {
-        $('.contact-page__form').on('submit', function(e) {
+        $('#contact-form').on('submit', function(e) {
             e.preventDefault();
             
+
             $.ajax({
-                url: $(this).attr('action'),
+                url: "{{ route('send.email') }}", // Correct route for Laravel
                 type: 'POST',
                 data: $(this).serialize(),
                 success: function(response) {
-                    // Show success message
-                    $('.message-container').html('<div class="alert alert-success">Your message has been sent successfully!</div>');
+                    alert('Your message has been sent successfully!');
                 },
-                error: function() {
+                error: function(xhr) {
+                    console.error('Error:', xhr.responseText);
                     alert('There was an error sending your message. Please try again.');
                 }
             });

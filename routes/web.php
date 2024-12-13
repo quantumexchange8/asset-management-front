@@ -19,5 +19,12 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send.email');
+Route::get('/insight', function () {
+    return view('insight');
+});
+
+Route::get('/service', function () {
+    return view('service');
+});
+Route::post('/sendmail', [ContactController::class, 'sendEmail'])->name('send.email');
 
