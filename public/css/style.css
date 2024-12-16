@@ -577,7 +577,7 @@ a.uk-link-reset,
 
 .uk-heading-medium {
   font-size: 2.8875rem;
-  line-height: 1.1;
+  line-height: 0.5;
 }
 
 .uk-heading-large {
@@ -9763,7 +9763,9 @@ iframe[data-uk-cover] {
 }
 
 .uk-margin-remove-top {
-  margin-top: 0 !important;
+  margin-top: 100 !important;
+  border-top: 1px solid #3CA977;
+
 }
 
 .uk-margin-remove-bottom {
@@ -24096,13 +24098,13 @@ footer .social-media-list div a .fab {
   margin-bottom: 15px;
 }
 .in-wave-12 .in-wave-12-counter {
-  border-bottom: 1px solid #3CA977;
+  /* border-bottom: 1px solid #3CA977; */
 }
 .in-wave-12 .in-wave-12-counter .in-wave-12-small {
   font-size: 28px;
   font-weight: 300;
   color: #3CA977;
-  margin-left: -10px;
+  /* margin-left: -10px; */
 }
 .in-wave-12 .in-testimoni-wrap {
   padding-top: 30px;
@@ -24162,7 +24164,7 @@ footer .social-media-list div a .fab {
   }
 }
 .in-wave-14 .uk-container {
-  margin-top: 20px;
+  margin-top: 1px;
   margin-bottom: 20px;
 }
 .in-wave-14 .in-wave-14-card {

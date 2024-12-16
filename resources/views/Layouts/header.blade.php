@@ -13,12 +13,19 @@
                     <li><a href="/performance">Performance<span data-uk-navbar-parent-icon></span></a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="/">Merge Signal Strategy</a></li>
-                                <li><a href="/">Grand Pacific Strategy</a></li>
+                                <li><a href="/performance">Merge Signal Strategy</a></li>
+                                <li><a href="/performance2">Grand Pacific Strategy</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="/resources">Resources<span data-uk-navbar-parent-icon></span></a></li>
+                    <li><a href="/resources">Resources<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="/faq">FAQs</a></li>
+                                <li><a href="/news">News</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>

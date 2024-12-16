@@ -18,7 +18,7 @@
                                 <div class="uk-overlay">
                                     <h1>Partner with us to unlock your path to financial success</h1>
                                     <p class="uk-text-lead uk-visible@m">Empowering you to manage your assets with precision, security, and insight.</p>
-                                    <a href="#" class="uk-button uk-button-primary uk-border-rounded uk-visible@m"><i class="fas fa-scroll uk-margin-small-right"></i>Discover it now</a>
+                                    <a href="/about" class="uk-button uk-button-primary uk-border-rounded uk-visible@m"><i class="fas fa-scroll uk-margin-small-right"></i>Discover it now</a>
                                 </div>
                             </div>
                         </div>
@@ -195,64 +195,55 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-3-4@m">
-                    <h1 class="uk-margin-remove-bottom">Why <span class="in-highlight">choose</span> us?</h1>
+                    <h1 class="uk-margin-remove-bottom">Why <span class="in-highlight">XXXX</span>?</h1>
                 </div>
             </div>
             <div class="uk-grid-large uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-large-top" data-uk-grid>
                 <div> 
                     <div class="in-wave-12-counter">
                         <h1 class="uk-heading-medium uk-margin-remove">
-                            <span class="count" data-counter-end="20">0</span>
-                            <span class="in-wave-12-small">years</span>
+                            <span class="in-wave-12-small">Proprietary Trading Expertise</span>
                         </h1>
-                        <h4 class="uk-margin-top uk-margin-remove-bottom">Experience</h4>
-                        <p class="uk-text-muted uk-margin-remove-top">Since 2000</p>
+                        <p class="uk-text-muted uk-margin-remove-top">We specializes in proprietary trading at the forefront of the financial industry. With experience of expertise in quantitative financial analytics and trading, our team possesses a profound understanding of the intricacies of global financial markets.</p>
                     </div>
                 </div>
                 <div>
                     <div class="in-wave-12-counter">
                         <h1 class="uk-heading-medium uk-margin-remove">
-                            <span class="count" data-counter-end="15">0</span>
-                            <span class="in-wave-12-small">years</span>
+                            <span class="in-wave-12-small">Personalized Solution</span>
                         </h1>
-                        <h4 class="uk-margin-top uk-margin-remove-bottom">UK Regulated</h4>
-                        <p class="uk-text-muted uk-margin-remove-top">Since 2005</p>
+                        <p class="uk-text-muted uk-margin-remove-top">We recognize that each investor has unique needs and goals, which is why we provide customized solutions tailored to their specific investment objectives. Our personalized approach empowers us to transform our clients' investment aspirations into reality.</p>
                     </div>
                 </div>
                 <div>
                     <div class="in-wave-12-counter">
                         <h1 class="uk-heading-medium uk-margin-remove">
-                            <span class="count" data-counter-end="18">0</span>
-                            <span class="in-wave-12-small">K</span>
+                            <span class="in-wave-12-small">Proven Track Record</span>
                         </h1>
-                        <h4 class="uk-margin-top uk-margin-remove-bottom">Order per day</h4>
-                        <p class="uk-text-muted uk-margin-remove-top">Fast execution</p>
+                        <p class="uk-text-muted uk-margin-remove-top">We have a strong track record of consistently delivering reliable returns to our clients. Our dedication to excellence ensures exceptional results, giving our clients the confidence and peace of mind that their investments are managed by skilled professionals.</p>
                     </div>
                 </div>
                 <div>
                     <div class="in-wave-12-counter">
                         <h1 class="uk-heading-medium uk-margin-remove">
-                            <span class="count" data-counter-end="24">0</span>
-                            <span class="in-wave-12-small">/5</span>
+                            <span class="in-wave-12-small">Commitment to Core Values</span>
                         </h1>
-                        <h4 class="uk-margin-top uk-margin-remove-bottom">Customer support</h4>
-                        <p class="uk-text-muted uk-margin-remove-top">Account manager</p>
+                        <p class="uk-text-muted uk-margin-remove-top">We believe that trust, transparency, and accountability are the foundation of success. We are committed to fostering enduring relationships with our clients, guided by these core principles.</p>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
-    <div class="uk-section in-wave-14">
+    <div class="uk-section-1 in-wave-14">
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-1-1@m">
                     <div class="uk-grid uk-flex uk-flex-center uk-margin-large-top">
                         <div class="uk-width-3-5@m">
-                            <div class="uk-card uk-card-default uk-card-body uk-text-center uk-border-rounded uk-box-shadow-small in-wave-14-card">
+                            {{-- <div class="uk-card uk-card-default uk-card-body uk-text-center uk-border-rounded uk-box-shadow-small in-wave-14-card">
                                 <span class="uk-label in-label-small uk-text-uppercase uk-margin-small-right">EXPLORE</span>
                                 Lorem ipsum dolor sit amet consectetur adipisicing reprehen elit. <a href="#">Learn more</a>
-                            </div>
+                            </div> --}}
                             <div class="uk-grid-collapse uk-grid-divider uk-child-width-1-3@m uk-text-center uk-margin-top uk-margin-small-bottom" data-uk-grid>
                                 <div>
                                     <i class="fas fa-headset fa-lg uk-margin-small-right uk-text-primary"></i>
