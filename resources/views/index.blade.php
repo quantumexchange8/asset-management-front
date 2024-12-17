@@ -1,5 +1,8 @@
 @extends('Layouts.master')
 @section('title', 'Homepage')
+@section('header')
+    @include('Layouts.indexheader')
+@endsection
 @section('contents')
 
 <main>
@@ -157,35 +160,22 @@
                 <div class="uk-width-1-2@m">
                     {{-- <img class="uk-margin-bottom" src="img/in-lazy.gif" data-src="img/in-wave-icon-5.svg" alt="wave-icon" width="64" height="64" data-uk-img> --}}
                     <h1 class="uk-margin-remove"> <span class="in-highlight">Introduction</span></h1>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident dolorem eum fugiat voluptas nulla pariatur.</p>
+                    <p>XXX is a leading asset management group specializing in proprietary trading. Our team comprises experts from renowned financial institutions, bringing together extensive experience, deep expertise, and advanced trading technologies. We are committed to delivering outstanding returns while minimizing risk, providing our clients with superior investment management services and consistent, exceptional results.</p>
                     <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center uk-margin-medium-top" data-uk-grid>
-                        <div>
-                            <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
-                                <img class="uk-margin-remove-bottom" src="img/in-lazy.gif" data-src="img/in-wave-icon-6.svg" alt="wave-icon" width="52" height="52" data-uk-img>
-                                <h5 class="uk-margin-small-top">Strategies & Discussions</h5>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
-                                <img class="uk-margin-remove-bottom" src="img/in-lazy.gif" data-src="img/in-wave-icon-7.svg" alt="wave-icon" width="52" height="52" data-uk-img>
-                                <h5 class="uk-margin-small-top">Forecasts & Educations</h5>
-                            </div>
+                        <div class="uk-width-auto">
+                            <a class="uk-button uk-button-primary uk-border-rounded uk-button-center" href="/contact">Contact Us</a>
                         </div>
                     </div>
                 </div>
                 <div class="uk-width-1-2@m">
                     <div class="uk-inline uk-dark in-wave-video uk-margin-small-bottom">
                         <img class="uk-border-rounded uk-width-1-1" src="img/in-lazy.gif" data-src="img/in-wave-image-1.jpg" alt="wave-video" width="533" height="355" data-uk-img>
-                        <div class="uk-position-center" data-uk-lightbox="video-autoplay: true;">
-                            
-                        </div>
                         <div class="uk-flex-top" data-uk-modal>
                             <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical in-iframe">
                                 <button class="uk-modal-close-outside" type="button" data-uk-close></button>
                             </div>
                         </div>
                     </div>
-                    <p class="uk-text-small uk-text-muted">Explore the markets at your own pace with short online courses. <span class="uk-label in-label-small">Sign up</span></p>
                 </div>
             </div>
         </div>
@@ -204,7 +194,7 @@
                         <h1 class="uk-heading-medium uk-margin-remove">
                             <span class="in-wave-12-small">Proprietary Trading Expertise</span>
                         </h1>
-                        <p class="uk-text-muted uk-margin-remove-top">We specializes in proprietary trading at the forefront of the financial industry. With experience of expertise in quantitative financial analytics and trading, our team possesses a profound understanding of the intricacies of global financial markets.</p>
+                        <p class="uk-margin-remove-top">We specializes in proprietary trading at the forefront of the financial industry. With experience of expertise in quantitative financial analytics and trading, our team possesses a profound understanding of the intricacies of global financial markets.</p>
                     </div>
                 </div>
                 <div>
@@ -212,7 +202,7 @@
                         <h1 class="uk-heading-medium uk-margin-remove">
                             <span class="in-wave-12-small">Personalized Solution</span>
                         </h1>
-                        <p class="uk-text-muted uk-margin-remove-top">We recognize that each investor has unique needs and goals, which is why we provide customized solutions tailored to their specific investment objectives. Our personalized approach empowers us to transform our clients' investment aspirations into reality.</p>
+                        <p class="uk-margin-remove-top">We recognize that each investor has unique needs and goals, which is why we provide customized solutions tailored to their specific investment objectives. Our personalized approach empowers us to transform our clients' investment aspirations into reality.</p>
                     </div>
                 </div>
                 <div>
@@ -220,7 +210,7 @@
                         <h1 class="uk-heading-medium uk-margin-remove">
                             <span class="in-wave-12-small">Proven Track Record</span>
                         </h1>
-                        <p class="uk-text-muted uk-margin-remove-top">We have a strong track record of consistently delivering reliable returns to our clients. Our dedication to excellence ensures exceptional results, giving our clients the confidence and peace of mind that their investments are managed by skilled professionals.</p>
+                        <p class="uk-margin-remove-top">We have a strong track record of consistently delivering reliable returns to our clients. Our dedication to excellence ensures exceptional results, giving our clients the confidence and peace of mind that their investments are managed by skilled professionals.</p>
                     </div>
                 </div>
                 <div>
@@ -228,35 +218,26 @@
                         <h1 class="uk-heading-medium uk-margin-remove">
                             <span class="in-wave-12-small">Commitment to Core Values</span>
                         </h1>
-                        <p class="uk-text-muted uk-margin-remove-top">We believe that trust, transparency, and accountability are the foundation of success. We are committed to fostering enduring relationships with our clients, guided by these core principles.</p>
+                        <p class="uk-margin-remove-top">We believe that trust, transparency, and accountability are the foundation of success. We are committed to fostering enduring relationships with our clients, guided by these core principles.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="uk-section-1 in-wave-14">
+    <!-- section content end -->
+    <!-- section content begin -->
+    <div class="uk-section">
         <div class="uk-container">
             <div class="uk-grid">
-                <div class="uk-width-1-1@m">
-                    <div class="uk-grid uk-flex uk-flex-center uk-margin-large-top">
-                        <div class="uk-width-3-5@m">
-                            {{-- <div class="uk-card uk-card-default uk-card-body uk-text-center uk-border-rounded uk-box-shadow-small in-wave-14-card">
-                                <span class="uk-label in-label-small uk-text-uppercase uk-margin-small-right">EXPLORE</span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing reprehen elit. <a href="#">Learn more</a>
-                            </div> --}}
-                            <div class="uk-grid-collapse uk-grid-divider uk-child-width-1-3@m uk-text-center uk-margin-top uk-margin-small-bottom" data-uk-grid>
-                                <div>
-                                    <i class="fas fa-headset fa-lg uk-margin-small-right uk-text-primary"></i>
-                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">Award-winning support</p>
-                                </div>
-                                <div>
-                                    <i class="fas fa-university fa-lg uk-margin-small-right uk-text-primary"></i>
-                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">Regulated by the FCA,UK</p>
-                                </div>
-                                <div>
-                                    <i class="fas fa-history fa-lg uk-margin-small-right uk-text-primary"></i>
-                                    <p class="uk-margin-remove uk-text-small uk-text-uppercase">30 years experience</p>
-                                </div>
+                <div class="uk-width-1-1 in-card-16">
+                    <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded">
+                        <div class="uk-grid uk-flex-middle" data-uk-grid>
+                            <div class="uk-width-1-1 uk-width-expand@m">
+                                <h3>Do you need a consultant?</h3>
+                                <p>Please do not hesitate to contact us at [email.com] or fill up the contact form.</p>
+                            </div>
+                            <div class="uk-width-auto">
+                                <a class="uk-button uk-button-primary uk-border-rounded" href="/contact">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -265,13 +246,12 @@
         </div>
     </div>
     <!-- section content end -->
-
     <!-- section content begin -->
     <div class="uk-section in-wave-14">
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width">                
-                    <h1 class="uk-margin-remove-bottom">Explore our <span class="in-highlight">products & services</span></h1>
+                    <h1 class="uk-margin-remove-bottom">Explore Our <span class="in-highlight">Products & Services</span></h1>
                     <div class="uk-child-width-1-3@m uk-margin-large-top" data-uk-grid>
                         <div>
                             <img class="uk-margin-remove-bottom" src="img/in-wave-icon-11.svg" alt="wave-icon" width="42" height="42">

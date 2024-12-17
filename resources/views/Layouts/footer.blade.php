@@ -6,38 +6,38 @@
                     <img class="uk-display-block" src="img/user/footer-logo-3WIDIh.svg" alt="footer-logo" width="134" height="23" data-uk-img="">
                 </div>
                 <p class="uk-text-large uk-margin-small-top">Trade with financial thinking.</p>
-                <p class="uk-visible@m">Imperium Tower (Headquarters)<br>
-                Jl. Prof Dr Satrio, Kuningan<br>
-                12920<br>
-                Jakarta - Indonesia
+                <p class="uk-visible@m">Company Name<br>
+                Address<br>
                 </p>
             </div>
             <div class="uk-width-3-5@m">
                 <div class="uk-child-width-1-3@s uk-child-width-1-3@m" data-uk-grid="">
                     <div>
-                        <h4><span>Markets</span></h4>
+                        {{-- <h4><span>Markets</span></h4>
                         <ul class="uk-list uk-link-text">
                             <li><a href="#">Forex</a></li>
                             <li><a href="#">Synthetic indices</a></li>
                             <li><a href="#">Stock indices</a></li>
                             <li><a href="#">Commodities</a></li>
-                        </ul>
+                        </ul> --}}
                     </div>
-                    <div>
+                    {{-- <div>
                         <h4><span>Resources</span></h4>
                         <ul class="uk-list uk-link-text">
                             <li><a href="#">Help Centre</a></li>
                             <li><a href="#">Payment methods</a></li>
                         </ul>
+                    </div> --}}
+                    <div>
+                        <h4><span>Quick Links</span></h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Service</a></li>
+                            <li><a href="#">Insight</a></li>
+                            <li><a href="#">Performance</a></li>
+                        </ul>
                     </div>
                     <div>
-                        <h4><span>Company</span></h4>
-                        <ul class="uk-list uk-link-text">
-                            <li><a href="#">Our story</a></li>
-                            <li><a href="#">Our leadership</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Partners</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -99,13 +99,12 @@
                     <li><a href="/about">About</a></li>
                     <li><a href="/service">Service</a></li>
                     <li><a href="/insight">Insight</a></li>
-                    <li><a href="/performance">performance</a></li>
-                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/performance">Performance</a></li>
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="uk-width-expand@m uk-text-right@m">
-                <p class="copyright-text">© 2020 Wave Capital Inc.</p>
+                <p class="copyright-text">Copyright ©  Company Name</p>
             </div>
         </div>
     </div>

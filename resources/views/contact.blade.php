@@ -1,6 +1,8 @@
 @extends('Layouts.master')
 @section('title', 'Contact Us')
-
+@section('header')
+    @include('Layouts.header')
+@endsection
 @section('contents')
         <!-- Display Success Message -->
         @if (session('success'))
@@ -20,9 +22,9 @@
                     <div class="uk-grid uk-grid-large" data-uk-grid>
                         <div class="uk-width-1-3@m">
                             <h4 class="uk-margin-remove-bottom">Visit our office</h4>
-                            <p class="uk-margin-small-top">Satrio Tower 16th Floor, Jl. Prof Dr Satrio Kuningan, Jakarta</p>
+                            <p class="uk-margin-small-top">[address]</p>
                             <h4 class="uk-margin-medium-top uk-margin-remove-bottom">Message us</h4>
-                            <p class="uk-margin-small-top">hello@company.com<br>(888)234-5686</p>
+                            <p class="uk-margin-small-top">email.com<br>(888)234-5678</p>
                             <div class="uk-margin-medium-top in-wave-socials-contact">
                                 <a href="#" class="fab fa-facebook-square fa-lg uk-text-decoration-none uk-margin-right"></a>
                                 <a href="#" class="fab fa-twitter fa-lg uk-text-decoration-none uk-margin-right"></a>
@@ -83,7 +85,7 @@
             
 
             $.ajax({
-                url: "{{ route('send.email') }}", // Correct route for Laravel
+                url: "{{ route('send.email') }}",
                 type: 'POST',
                 data: $(this).serialize(),
                 success: function(response) {

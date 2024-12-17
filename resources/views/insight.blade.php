@@ -1,33 +1,26 @@
 @extends('Layouts.master')
 @section('title', 'Insight')
-
+@section('header')
+    @include('Layouts.header')
+@endsection
 @section('contents')
-<!-- breadcrumb content begin -->
-<div class="uk-section uk-padding-remove-vertical in-wave-breadcrumb">
-    <div class="uk-container">
-        <div class="uk-grid">
-            <div class="uk-width-1-1">
-                <ul class="uk-breadcrumb">
-                    {{-- <li><a href="/">Howme</a></li> --}}
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- breadcrumb content end -->
 <main>
-
-
     <!-- section content begin -->
     <div class="uk-section">
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center">
                 <div class="uk-width-1">
+                    <h1 class="uk-margin-medium-bottom uk-text-center">Our <span class="in-highlight">Mission & Vision</span></h1>
                     <div class="uk-grid uk-flex uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-2@m">
-                            {{-- <h4 class="uk-text-muted">Number speaks</h4> --}}
-                            <h1 class="uk-margin-medium-bottom">Our<br> <span class="in-highlight">Mission & Vision</span></h1>
-                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">Learn more</a>
+                            <div class="uk-inline uk-dark in-wave-video uk-margin-small-bottom">
+                                <img class="uk-border-rounded uk-width-1-1" src="img/in-lazy.gif" data-src="img/blockit/in-gallery-image-5.jpg" alt="wave-video" width="533" height="355" data-uk-img>
+                                <div class="uk-flex-top" data-uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical in-iframe">
+                                        <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="uk-width-1-2@m">
                             <div class="uk-margin-large" data-uk-grid>
@@ -128,21 +121,21 @@
                     <div class="uk-grid-divider uk-child-width-1-3@m uk-child-width-1-2@s" data-uk-grid>
                         <div>
                           <div class="in-icon-wrap primary-color">
-                            <i class="fas fa-file fa-lg"></i>
+                            <i class="fas fa-users fa-lg"></i>
                           </div>
                             <h3 class="uk-margin-top">Professional Team</h3>
                             <p>Our team consists of highly skilled and experienced professionals committed to helping you achieve your investment goals. Recognizing that every client is unique, we customize our strategies to suit your individual needs. With extensive market expertise, we are prepared to guide you through the challenges and opportunities of investing.</p>
                         </div>
                         <div>
                           <div class="in-icon-wrap primary-color">
-                            <i class="fas fa-globe fa-lg"></i>
+                            <i class="fas fa-line-chart fa-lg"></i>
                           </div>
                             <h3 class="uk-margin-top">Multi-Asset Investing</h3>
                             <p>We provide a wide array of investment options spanning multiple asset classes, enabling us to design well-rounded, balanced portfolios tailored to your needs. Whether your interests lie in stocks, bonds, real estate, or alternative investments, our team is here to help you build a portfolio that supports your long-term financial success.</p>
                         </div>
                         <div class="uk-visible@m">
                           <div class="in-icon-wrap primary-color">
-                            <i class="fas fa-shield-alt fa-lg"></i>
+                            <i class="fas fa-handshake fa-lg"></i>
                           </div>
                             <h3 class="uk-margin-top">Client-Driven Experience</h3>
                             <p>We prioritize our clients above all else, fostering long-term relationships built on trust and transparency. By taking the time to understand your needs, answer your questions, and offer tailored guidance, we empower you to make informed investment decisions. Our ultimate goal is to help you achieve your financial objectives while delivering an exceptional client experience at every step of your journey.</p>

@@ -2234,7 +2234,7 @@ select.uk-form-width-xsmall {
 
 /* Hover */
 .uk-button-primary:hover {
-  background-color: #b68b35;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -9763,6 +9763,7 @@ iframe[data-uk-cover] {
 }
 
 .uk-margin-remove-top {
+  padding-top: 20px;
   margin-top: 100 !important;
   border-top: 1px solid #3CA977;
 
@@ -23697,6 +23698,29 @@ header .uk-card-secondary a:hover {
   top: 1px;
 }
 
+.in-wave-breadcrumb .uk-breadcrumb-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.in-wave-breadcrumb .uk-breadcrumb-1 li::before {
+  position: relative;
+  top: 1px;
+}
+
+.uk-breadcrumb-1 a {
+  color: #666;
+  text-decoration: none;
+}
+
+.uk-breadcrumb-1 .active {
+  color: #3CA977; 
+  pointer-events: none;
+}
+.uk-breadcrumb-1 span {
+  padding-right: 5px;
+  padding-left: 15px;
+
+}
 footer {
   font-size: 14px;
   color: #8f8f8f;
@@ -24102,9 +24126,9 @@ footer .social-media-list div a .fab {
 }
 .in-wave-12 .in-wave-12-counter .in-wave-12-small {
   font-size: 28px;
+  padding-bottom: 30px;
   font-weight: 300;
   color: #3CA977;
-  /* margin-left: -10px; */
 }
 .in-wave-12 .in-testimoni-wrap {
   padding-top: 30px;
@@ -24370,4 +24394,13 @@ footer .social-media-list div a .fab {
 .in-wave-19 .in-create-account .uk-label {
   background-color: #3CA977;
   margin-top: -18px;
+}
+
+.uk-button-center {
+  text-align: center;
+}
+
+a.active {
+  color: #3CA977 !important;
+  /* font-weight: bold; */
 }

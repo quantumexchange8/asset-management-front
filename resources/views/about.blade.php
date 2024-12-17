@@ -1,6 +1,9 @@
+
 @extends('Layouts.master')
 @section('title', 'About Us')
-
+@section('header')
+    @include('Layouts.header')
+@endsection
 @section('contents')
 <main>
     <!-- section content begin -->
@@ -8,43 +11,23 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-1-1">
-                    <div class="uk-width-3-5@m">
-                        <h1 class="uk-margin-remove-bottom">Putting our clients first <span class="in-highlight">since 1986</span></h1>
-                        <p class="uk-text-lead uk-text-muted uk-margin-small-top">For more than 30 years, we’ve been empowering clients by helping them take control of their financial lives.</p>
-                    </div>
-                </div>
-                <div class="uk-grid uk-grid-large uk-child-width-1-3@m uk-margin-medium-top" data-uk-grid>
-                    <div class="uk-flex uk-flex-left">
-                        <div class="uk-margin-right">
-                        <div class="in-icon-wrap primary-color">
-                          <i class="fas fa-leaf fa-lg"></i>
+                    <h1 class=" ">Our <span class="in-highlight">Company</span></h1>
+                    <p class="uk-text-lead uk-text-muted uk-margin-small-top">XXXXXXXXX has been a trusted partner in asset management.</p>
+
+                    <div class="uk-grid uk-child-width-1-2@m uk-grid-match" data-uk-grid>
+                        <div class="uk-width-1-3@m">
+                            <div class="uk-inline uk-dark in-wave-video uk-margin-small-bottom uk-margin-small-top">
+                                <img class="uk-border-rounded uk-width-1-1" src="img/in-lazy.gif" data-src="img/about-us.jpg" data-uk-img>
+                                <div class="uk-flex-top" data-uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical in-iframe">
+                                        <button class="uk-modal-close-outside" type="button" data-uk-close></button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        </div>
-                        <div>
-                            <h3>Philosophy</h3>
-                            <p class="uk-margin-remove-bottom">At vero eos etme accusamus iusto odio ent dignissimos deleniti atque corrupti quos ducimus moll quilla blanditiis expedita est distinctio.</p>
-                        </div>
-                    </div>
-                    <div class="uk-flex uk-flex-left">
-                        <div class="uk-margin-right">
-                        <div class="in-icon-wrap primary-color">
-                            <i class="fas fa-hourglass-end fa-lg"></i>
-                        </div>
-                        </div>
-                        <div>
-                            <h3>History</h3>
-                            <p class="uk-margin-remove-bottom">At vero eos etme accusamus iusto odio ent dignissimos deleniti atque corrupti quos ducimus moll quilla blanditiis expedita est distinctio.</p>
-                        </div>
-                    </div>
-                    <div class="uk-flex uk-flex-left">
-                        <div class="uk-margin-right">
-                        <div class="in-icon-wrap primary-color">
-                            <i class="fas fa-flag fa-lg"></i>
-                        </div>
-                        </div>
-                        <div>
-                            <h3>Culture</h3>
-                            <p class="uk-margin-remove-bottom">At vero eos etme accusamus iusto odio ent dignissimos deleniti atque corrupti quos ducimus moll quilla blanditiis expedita est distinctio.</p>
+                        <div class="uk-width-2-3@m uk-margin-large-top">
+                            <p>As a prominent leader in the wealth management industry, we recognize the critical importance of balancing professional expertise with a client-centered approach. Successful wealth management relies on seamlessly integrating and transitioning between these two perspectives. Professional expertise forms the foundation for delivering consistent, reliable advice aimed at preserving and growing our clients' wealth. Meanwhile, experiential thinking plays a vital role in implementing that advice, allowing us to better address the needs of both rational and emotional investors. Our ability to strike this balance distinguishes us as a trusted leader in the industry.
+                            <br><br> Our assistance and guidance help clients embark on the path of maintaining and increasing their portfolio's value over time.</p>
                         </div>
                     </div>
                 </div>
@@ -175,5 +158,22 @@
         </div>
     </div>
     <!-- section content end -->
-    </main>
+    <!-- section content begin -->
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <div class="uk-card uk-card-primary uk-box-shadow-small uk-border-rounded uk-background-cover" style="background-image: url(img/blockit/in-card-background-1.jpg);">
+                        <div class="uk-card-body">
+                            <h2 class="uk-margin-remove-bottom">Want To Know More?</h2>
+                            <p class="uk-margin-small-top">Please do not hesitate to contact us at [email.com] or fill up the contact form.</p>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="/contact">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section content end -->
+</main>
 @endsection

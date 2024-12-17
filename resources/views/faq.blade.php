@@ -1,6 +1,8 @@
 @extends('Layouts.master')
 @section('title', 'FAQs')
-
+@section('header')
+    @include('Layouts.header')
+@endsection
 @section('contents')
 <main>
     <!-- section content begin -->

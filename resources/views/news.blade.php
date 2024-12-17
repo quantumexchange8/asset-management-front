@@ -1,5 +1,8 @@
 @extends('Layouts.master')
 @section('title', 'News')
+@section('header')
+    @include('Layouts.header')
+@endsection
 @section('contents')
 <main data-title="blog">
     <!-- blog content begin -->
