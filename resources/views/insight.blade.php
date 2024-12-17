@@ -133,12 +133,12 @@
                             <h3 class="uk-margin-top">Multi-Asset Investing</h3>
                             <p>We provide a wide array of investment options spanning multiple asset classes, enabling us to design well-rounded, balanced portfolios tailored to your needs. Whether your interests lie in stocks, bonds, real estate, or alternative investments, our team is here to help you build a portfolio that supports your long-term financial success.</p>
                         </div>
-                        <div class="uk-visible@m">
-                          <div class="in-icon-wrap primary-color">
-                            <i class="fas fa-handshake fa-lg"></i>
-                          </div>
-                            <h3 class="uk-margin-top">Client-Driven Experience</h3>
-                            <p>We prioritize our clients above all else, fostering long-term relationships built on trust and transparency. By taking the time to understand your needs, answer your questions, and offer tailored guidance, we empower you to make informed investment decisions. Our ultimate goal is to help you achieve your financial objectives while delivering an exceptional client experience at every step of your journey.</p>
+                        <div>
+                            <div class="in-icon-wrap primary-color">
+                              <i class="fas fa-handshake fa-lg"></i>
+                            </div>
+                              <h3 class="uk-margin-top">Client-Driven Experience</h3>
+                              <p>We prioritize our clients above all else, fostering long-term relationships built on trust and transparency. By taking the time to understand your needs, answer your questions, and offer tailored guidance, we empower you to make informed investment decisions. Our ultimate goal is to help you achieve your financial objectives while delivering an exceptional client experience at every step of your journey.</p>
                         </div>
                     </div>
                 </div>
