@@ -2,10 +2,23 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+
+// Redirect to the default locale if no locale is specified
+Route::get('localization/{locale}', function ($locale) {
+    if (!in_array($locale, ['en', 'cn'])) {
+        abort(400);
+    }
+
+    App::setlocale($locale);
+    Session::put("locale", $locale);
+    return back();
+})->name('locale');
 
 Route::get('/', function () {
     return view('index');
-})->name('home');
+})->name('home');;
 
 Route::get('/about', function () {
     return view('about');
@@ -30,10 +43,6 @@ Route::get('/performance', function () {
 Route::get('/performance2', function () {
     return view('performance2');
 })->name('performance2');
-
-Route::get('/service', function () {
-    return view('service');
-})->name('service');
 
 Route::get('/news', function () {
     return view('news');

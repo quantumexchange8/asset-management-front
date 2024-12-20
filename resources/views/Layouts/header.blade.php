@@ -7,46 +7,50 @@
                 </a>
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li>
-                        <a href="/" class="{{ Request::is('/') ? 'active' : '' }}">Home</a>
+                        <a href="/" class="{{ Request::is('/') ? 'active' : '' }}">{{ __('public.home')}}</a>
                     </li>
                     <li>
-                        <a href="/about" class="{{ Request::is('about') ? 'active' : '' }}">About</a>
+                        <a href="/about" class="{{ Request::is('about') ? 'active' : '' }}">{{ __('public.about')}}</a>
                     </li>
                     <li>
-                        <a href="/service" class="{{ Request::is('service') ? 'active' : '' }}">Service</a>
+                        <a href="/service" class="{{ Request::is('service') ? 'active' : '' }}">{{ __('public.service')}}</a>
                     </li>
                     <li>
-                        <a href="/insight" class="{{ Request::is('insight') ? 'active' : '' }}">Insight</a>
+                        <a href="/insight" class="{{ Request::is('insight') ? 'active' : '' }}">{{ __('public.insight')}}</a>
                     </li>
                     <li>
                         <a href="/performance" class="{{ Request::is('performance') || Request::is('performance2') ? 'active' : '' }}">
-                            Performance<span data-uk-navbar-parent-icon></span>
+                            {{ __('public.performance')}}<span data-uk-navbar-parent-icon></span>
                         </a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="/performance" class="{{ Request::is('performance') ? 'active' : '' }}">Performance 1</a></li>
+                                <li><a href="{{ route('performance', app()->getLocale()) }}" class="{{ Request::is('performance') ? 'active' : '' }}">{{ __('public.performance')}}</a></li>
                                 {{-- <li><a href="/performance2" class="{{ Request::is('performance2') ? 'active' : '' }}">Performance 2</a></li> --}}
                             </ul>
                         </div>
                     </li>
-                    {{-- <li><a href="/resources">Resources<span data-uk-navbar-parent-icon></span></a>
-                        <div class="uk-navbar-dropdown">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="/faq">FAQs</a></li>
-                                <li><a href="/news">News</a></li>
-                            </ul>
-                        </div>
-                    </li> --}}
-                    {{-- <li><a href="/contact" class="{{ Request::is('contact') ? 'active' : '' }}">Contact</a></li> --}}
                 </ul>
             </div>
             <div class="uk-navbar-right uk-width-auto">
-                <div class="uk-navbar-item uk-visible@m">
-                    <div class="in-optional-nav">
-                        {{-- <a href="signin.html" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Log in</a> --}}
-                        <a href="/contact" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-small-left">Contact Us</a>
-                    </div>
-                </div>
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li>
+                        <div class="in-optional-nav">
+                            {{-- <a href="signin.html" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Log in</a> --}}
+                            <a href="/contact" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-medium-left">{{ __('public.contact')}}</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="language-dropdown">
+                            <a class="fas fa-globe fa-lg uk-margin-small-left"></a>
+                            <div class="uk-navbar-dropdown" uk-drop="pos: bottom; offset: 50">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="{{ route('locale', 'en') }}">English</a></li>
+                                    <li><a href="{{ route('locale', 'cn') }}">Chinese</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -59,7 +63,7 @@
                             <p>Trading involves substantial risk and may result in the loss of your invested/greater that your invested capital, respectively.</p>
                         </div>
                         <div class="uk-width-expand@m uk-text-center uk-text-right@m">
-                            <a class="uk-margin-right" href="/contact"><i class="fas fa-comment-alt uk-margin-small-right"></i>Contact Us</a>
+                            <a class="uk-margin-right" href="/contact"><i class="fas fa-comment-alt uk-margin-small-right"></i>{{ __('public.contact')}}</a>
                             <a href="#"><i class="fas fa-phone-alt uk-margin-small-right uk-margin-small-left"></i>1-800-123-4567</a>
                         </div>
                     </div>
@@ -71,20 +75,20 @@
                     <div class="uk-grid">
                         <div class="uk-width-1-1">
                             <ul class="uk-breadcrumb-1">
-                                <a href="{{ route('home') }}">Home</a> 
+                                <a href="{{ route('home') }}">{{ __('public.home')}}</a> 
                                 <span> >></span> 
                                 @if (Route::currentRouteName() == 'about')
-                                    <span class="active">About</span>
+                                    <span class="active">{{ __('public.about')}}</span>
                                 @elseif (Route::currentRouteName() == 'service')
-                                    <span class="active">Service</span>
+                                    <span class="active">{{ __('public.service')}}</span>
                                 @elseif (Route::currentRouteName() == 'insight')
-                                    <span class="active">Insight</span>
+                                    <span class="active">{{ __('public.insight')}}</span>
                                 @elseif (Route::currentRouteName() == 'performance')
-                                    <span class="active">Performance</span> 
+                                    <span class="active">{{ __('public.performance')}}</span> 
                                 @elseif (Route::currentRouteName() == 'performance2')
-                                    <span class="active">Performance 2</span> 
+                                    <span class="active">{{ __('public.performance2')}}</span> 
                                 @elseif (Route::currentRouteName() == 'contact')
-                                    <span class="active">Contact</span> 
+                                    <span class="active">{{ __('public.contact')}}</span> 
                                 @endif
                             </ul>
                         </div>

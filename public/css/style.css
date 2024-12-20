@@ -24404,3 +24404,77 @@ a.active {
   color: #3CA977 !important;
   /* font-weight: bold; */
 }
+
+/* Style the dropdown container */
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hide the dropdown menu by default */
+.language-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Place the dropdown below the icon */
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+/* Style the dropdown items */
+.language-dropdown .dropdown-menu li {
+  padding: 8px 12px;
+}
+
+.language-dropdown .dropdown-menu li a {
+  text-decoration: none;
+  color: #999999;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.language-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Add hover effect for dropdown items */
+.language-dropdown .dropdown-menu li a:hover {
+  color: #666666;
+}
+
+.language-dropdown {
+  position: relative;
+}
+.language-dropdown .uk-navbar-dropdown {
+  position: absolute; /* Ensure the dropdown is positioned relative to the parent */
+  top: 100%; /* Position directly below the globe icon */
+  left: 100%; /* Position relative to the center of the globe icon */
+  transform: translateX(-50%); /* Center align horizontally */
+  width: 150px; /* Adjust dropdown width as needed */
+  padding: 15px; /* Adjust padding inside the dropdown */
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for styling */
+  border-radius: 8px; /* Rounded corners */
+  background: #fff; /* Dropdown background color */
+  z-index: 1000; /* Ensure dropdown appears above other elements */
+}
+
+.language-dropdown .uk-navbar-dropdown ul li a {
+  padding: 8px; /* Adjusts padding for each link item */
+}
+
+.language-dropdown .fa-globe {
+  padding: 15px 0 0 0;
+  color: #3CA977; /* Set your desired color */
+  font-size: 20px; /* Optional: Adjust the icon size */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Optional: Add a smooth hover transition */
+}
+
+.language-dropdown .fa-globe:hover {
+  color: black; /* Set a different color on hover */
+}
