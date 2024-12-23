@@ -7,5 +7,5 @@ return [
     'performance' => 'Performance',
     'performance2' => 'Performance2',
     'contact' => 'Contact Us',
-
+    'language' => 'Language',
 ];

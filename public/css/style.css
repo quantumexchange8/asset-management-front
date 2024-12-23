@@ -5634,6 +5634,14 @@ ul.uk-nav-sub {
   background: #f8f8f8;
 }
 
+.uk-navbar-container.uk-navbar-white {
+  background-color: white !important;
+}
+
+.uk-navbar-container.uk-navbar-green {
+  background-color: #ffffff !important;
+}
+
 /* Groups
  ========================================================================== */
 /*
@@ -23553,8 +23561,13 @@ header .in-header-inner {
 }
 header .in-optional-nav {
   margin-right: 8px;
-  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  height: 98px;
+  display: flex; /* Add flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  /* border-left: 1px solid rgba(0, 0, 0, 0.15); */
 }
+
 header .in-optional-nav .uk-button {
   font-size: 15px;
 }
@@ -24407,8 +24420,11 @@ a.active {
 
 /* Style the dropdown container */
 .language-dropdown {
-  position: relative;
-  display: inline-block;
+  
+  height: 90px;
+  display: flex; /* Add flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
 }
 
 /* Hide the dropdown menu by default */

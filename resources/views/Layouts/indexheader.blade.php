@@ -1,5 +1,5 @@
-<div class="uk-section uk-padding-remove-vertical in-header-inverse ">
-    <nav class="uk-navbar-container uk-navbar-transparent" data-uk-sticky="show-on-up: true; top: 80; animation: uk-animation-fade">
+<div class="uk-section uk-padding-remove-vertical  ">
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky="start: 700; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-white uk-box-shadow-medium; cls-inactive:in-header-inverse uk-navbar-transparent">
         <div class="uk-container" data-uk-navbar>
             <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between">
                 <a class="uk-navbar-item uk-logo" href="/" data-logo-inverse="filename: header-logo-WeY2ag.svg" >
@@ -27,6 +27,15 @@
                         </div>
                     </li> --}}
                     {{-- <li><a href="/contact">Contact</a></li> --}}
+                    <li>
+                        <a class="uk-hidden@m">{{ __('public.language')}}<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="{{ route('locale', 'en') }}">English</a></li>
+                                <li><a href="{{ route('locale', 'cn') }}">Chinese</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="uk-navbar-right uk-width-auto">

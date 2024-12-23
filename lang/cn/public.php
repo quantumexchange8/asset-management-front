@@ -8,5 +8,6 @@ return [
     'performance' => '表现',
     'performance2' => '表现2',
     'contact' => '联系我们',
+    'language' => '语言',
 
 ];

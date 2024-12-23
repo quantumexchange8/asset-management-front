@@ -32,10 +32,10 @@
                 addonButtons: true,                 // options to use addon buttons, set it "false" if you won't use addon buttons
                 buttons: [
                     {
-                        name: 'Log in',             // custom button name
+                        name: 'Contact Us',             // custom button name
                         url: '',                    // custom button url
                         type: 'primary',            // button type (default, primary, secondary, danger, text)
-                        icon: 'sign-in-alt'         // button icon, you can use all icons from here : https://fontawesome.com/icons?d=gallery&s=solid&m=free
+                        icon: 'phone-alt'         // button icon, you can use all icons from here : https://fontawesome.com/icons?d=gallery&s=solid&m=free
                     },
                 ]
             }).init();

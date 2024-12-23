@@ -1,5 +1,5 @@
 <div class="uk-section uk-padding-remove-vertical in-header-inner uk-background-cover uk-background-top-center" style="background-image: url(img/in-wave-background-1.png);">
-    <nav class="uk-navbar-container uk-navbar-transparent" data-uk-sticky="show-on-up: true; top: 80; animation: uk-animation-fade">
+    <nav class="uk-navbar-container" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-white uk-box-shadow-medium; cls-inactive: uk-navbar-transparent">
         <div class="uk-container" data-uk-navbar>
             <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between">
                 <a class="uk-navbar-item uk-logo" href="/"  data-logo-inverse="filename: header-logo-WeY2ag.svg; sticky-only: true">
@@ -20,12 +20,20 @@
                     </li>
                     <li>
                         <a href="/performance" class="{{ Request::is('performance') || Request::is('performance2') ? 'active' : '' }}">
-                            {{ __('public.performance')}}<span data-uk-navbar-parent-icon></span>
-                        </a>
+                            {{ __('public.performance')}}<span data-uk-navbar-parent-icon></span></a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                 <li><a href="{{ route('performance', app()->getLocale()) }}" class="{{ Request::is('performance') ? 'active' : '' }}">{{ __('public.performance')}}</a></li>
                                 {{-- <li><a href="/performance2" class="{{ Request::is('performance2') ? 'active' : '' }}">Performance 2</a></li> --}}
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-hidden@m">{{ __('public.language')}}<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="{{ route('locale', 'en') }}">English</a></li>
+                                <li><a href="{{ route('locale', 'cn') }}">Chinese</a></li>
                             </ul>
                         </div>
                     </li>
@@ -35,7 +43,6 @@
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li>
                         <div class="in-optional-nav">
-                            {{-- <a href="signin.html" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Log in</a> --}}
                             <a href="/contact" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-medium-left">{{ __('public.contact')}}</a>
                         </div>
                     </li>
