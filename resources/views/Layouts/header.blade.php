@@ -10,20 +10,36 @@
                         <a href="/" class="{{ Request::is('/') ? 'active' : '' }}">{{ __('public.home')}}</a>
                     </li>
                     <li>
-                        <a href="/about" class="{{ Request::is('about') ? 'active' : '' }}">{{ __('public.about')}}</a>
+                        <a href="/about" class="{{ Request::is('about') || Request::is('corevalue') ? 'active' : '' }}">
+                            {{ __('public.about')}}<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="/about" class="{{ Request::is('about') ? 'active' : '' }}">{{ __('public.about-us')}}</a></li>
+                            </ul>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="/corevalue" class="{{ Request::is('corevalue') ? 'active' : '' }}">{{ __('public.core-value')}}</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
                         <a href="/service" class="{{ Request::is('service') ? 'active' : '' }}">{{ __('public.service')}}</a>
                     </li>
                     <li>
-                        <a href="/insight" class="{{ Request::is('insight') ? 'active' : '' }}">{{ __('public.insight')}}</a>
+                        <a href="/overview" class="{{ Request::is('overview') || Request::is('approach') ? 'active' : '' }}">
+                            {{ __('public.insight')}}<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="/overview" class="{{ Request::is('overview') ? 'active' : '' }}">{{ __('public.overview')}}</a></li>
+                                <li><a href="/approach" class="{{ Request::is('approach') ? 'active' : '' }}">{{ __('public.approach')}}</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
                         <a href="/performance" class="{{ Request::is('performance') || Request::is('performance2') ? 'active' : '' }}">
                             {{ __('public.performance')}}<span data-uk-navbar-parent-icon></span></a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="{{ route('performance', app()->getLocale()) }}" class="{{ Request::is('performance') ? 'active' : '' }}">{{ __('public.performance')}}</a></li>
+                                <li><a href="/performance" class="{{ Request::is('performance') ? 'active' : '' }}">{{ __('public.performance')}}</a></li>
                                 {{-- <li><a href="/performance2" class="{{ Request::is('performance2') ? 'active' : '' }}">Performance 2</a></li> --}}
                             </ul>
                         </div>
@@ -88,8 +104,14 @@
                                     <span class="active">{{ __('public.about')}}</span>
                                 @elseif (Route::currentRouteName() == 'service')
                                     <span class="active">{{ __('public.service')}}</span>
+                                @elseif (Route::currentRouteName() == 'corevalue')
+                                    <span class="active">{{ __('public.corevalue')}}</span>
                                 @elseif (Route::currentRouteName() == 'insight')
                                     <span class="active">{{ __('public.insight')}}</span>
+                                @elseif (Route::currentRouteName() == 'overview')
+                                    <span class="active">{{ __('public.overview')}}</span>
+                                @elseif (Route::currentRouteName() == 'approach')
+                                    <span class="active">{{ __('public.approach')}}</span>
                                 @elseif (Route::currentRouteName() == 'performance')
                                     <span class="active">{{ __('public.performance')}}</span> 
                                 @elseif (Route::currentRouteName() == 'performance2')

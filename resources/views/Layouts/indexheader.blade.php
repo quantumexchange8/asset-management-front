@@ -7,9 +7,23 @@
                 </a>
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li><a href="/">{{ __('public.home')}}</a></li>
-                    <li><a href="/about">{{ __('public.about')}}</a></li>
+                    <li><a href="/about">{{ __('public.about')}}<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="/about">{{ __('public.about')}}</a></li>
+                                <li><a href="/corevalue">{{ __('public.core-value')}}</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="/service">{{ __('public.service')}}</a></li>
-                    <li><a href="/insight">{{ __('public.insight')}}</a></li>
+                    <li><a href="/overview">{{ __('public.insight')}}<span data-uk-navbar-parent-icon></span></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="/overview">{{ __('public.overview')}}</a></li>
+                                <li><a href="/approach">{{ __('public.approach')}}</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="/performance">{{ __('public.performance')}}<span data-uk-navbar-parent-icon></span></a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -18,15 +32,6 @@
                             </ul>
                         </div>
                     </li>
-                    {{-- <li><a href="/resources">Resources<span data-uk-navbar-parent-icon></span></a>
-                        <div class="uk-navbar-dropdown">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="/faq">FAQs</a></li>
-                                <li><a href="/news">News</a></li>
-                            </ul>
-                        </div>
-                    </li> --}}
-                    {{-- <li><a href="/contact">Contact</a></li> --}}
                     <li>
                         <a class="uk-hidden@m">{{ __('public.language')}}<span data-uk-navbar-parent-icon></span></a>
                         <div class="uk-navbar-dropdown">

@@ -21,20 +21,25 @@
                             <li><a href="#">Commodities</a></li>
                         </ul> --}}
                     </div>
-                    {{-- <div>
-                        <h4><span>Resources</span></h4>
-                        <ul class="uk-list uk-link-text">
-                            <li><a href="#">Help Centre</a></li>
-                            <li><a href="#">Payment methods</a></li>
-                        </ul>
-                    </div> --}}
                     <div>
-                        <h4><span>Quick Links</span></h4>
+                        <h4><span>{{ __('public.insight')}}</span></h4>
                         <ul class="uk-list uk-link-text">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Service</a></li>
-                            <li><a href="#">Insight</a></li>
-                            <li><a href="#">Performance</a></li>
+                            <li><a href="/overview">{{ __('public.overview')}}</a></li>
+                            <li><a href="/approach">{{ __('public.approach')}}</a></li>
+                        </ul>
+                        <h4><span>{{ __('public.about')}}</span></h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/about">{{ __('public.about-us')}}</a></li>
+                            <li><a href="/corevalue">{{ __('public.core-value')}}</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><span>{{ __('public.quick-links')}}</span></h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/about">{{ __('public.about-us')}}</a></li>
+                            <li><a href="/service">{{ __('public.service')}}</a></li>
+                            <li><a href="/overview">{{ __('public.overview')}}</a></li>
+                            <li><a href="/performance">{{ __('public.performance')}}</a></li>
                         </ul>
                     </div>
                     <div>
@@ -98,7 +103,7 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/service">Service</a></li>
-                    <li><a href="/insight">Insight</a></li>
+                    <li><a href="/overview">Insight</a></li>
                     <li><a href="/performance">Performance</a></li>
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>

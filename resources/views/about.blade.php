@@ -43,121 +43,29 @@
                         <div class="uk-card-body">
                             <div class="uk-grid uk-flex uk-flex-center">
                                 <div class="uk-width-3-4@mservice uk-text-center">
-                                    <h2>Trust the Professionals</h2>
-                                    <p>We are a group of passionate, independent thinkers who never stop exploring new ways to improve trading for the self-directed investor.</p>
+                                    <h2>Few Words from Our CEO</h2>
+                                    <div class="uk-margin-center">
+                                        <img class="uk-align-center" src="img/user/user.png" alt="image-team" width="200">
+                                    </div>
+                                    <h4 class="uk-margin-small-top">Brian Saunders</h4>
+                                    <div>
+                                        <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
+                                        <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
+                                        <a class="uk-link-muted" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                    <p>{{ __('public.ceo-message-1')}}</p>
+                                    <p>{{ __('public.ceo-message-2')}}</p>
+                                    <p>{{ __('public.ceo-message-3')}}</p>
                                 </div>
                             </div>
-                            <div class="uk-grid uk-child-width-1-2@m uk-margin-medium-top" data-uk-grid="">
-                                <div class="uk-flex uk-flex-left uk-first-column">
-                                    <div class="uk-margin-right">
-                                        <img class="uk-align-center" src="img/blockit/in-team-1.png" alt="image-team" width="300">
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Chief Executive Officer</p>
-                                        <h4 class="uk-margin-small-top">Cynthia Dixon</h4>
-                                        <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
-                                        <div>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="uk-flex uk-flex-left">
-                                    <div class="uk-margin-right">
-                                        <img class="uk-align-center" src="img/blockit/in-team-2.png" alt="image-team" width="300">
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Executive Assistant</p>
-                                        <h4 class="uk-margin-small-top">Arthur Parker</h4>
-                                        <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
-                                        <div>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="uk-flex uk-flex-left uk-grid-margin uk-first-column">
-                                    <div class="uk-margin-right">
-                                        <img class="uk-align-center" src="img/blockit/in-team-3.png" alt="image-team" width="300">
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Marketing Specialist</p>
-                                        <h4 class="uk-margin-small-top">Evelyn Mason</h4>
-                                        <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
-                                        <div>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="uk-flex uk-flex-left uk-grid-margin">
-                                    <div class="uk-margin-right">
-                                        <img class="uk-align-center" src="img/blockit/in-team-4.png" alt="image-team" width="300">
-                                    </div>
-                                    <div>
-                                        <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-bottom">Human Resources</p>
-                                        <h4 class="uk-margin-small-top">Bryan Greene</h4>
-                                        <p>Nostrum exercitationem ullam corporis suscipit labor samnisi ute aliquid fugiat.</p>
-                                        <div>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-facebook-f uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-twitter uk-margin-small-right"></i></a>
-                                            <a class="uk-link-muted" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- section content begin -->
-    <div class="uk-section">
-        <div class="uk-container">
-            <div class="uk-grid uk-flex uk-flex-center">
-                <div class="uk-width-3-4@m">
-                    <div class="uk-grid uk-flex uk-flex-middle" data-uk-grid>
-                        <div class="uk-width-1-2@m">
-                            <h4 class="uk-text-muted">Number speaks</h4>
-                            <h1 class="uk-margin-medium-bottom">We always ready<br>for a <span class="in-highlight">challenge.</span></h1>
-                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">Learn more</a>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-margin-large" data-uk-grid>
-                                <div class="uk-width-1-3@m">
-                                    <h1 class="uk-text-primary uk-text-right@m">
-                                        <span class="count" data-counter-end="213">0</span>
-                                    </h1>
-                                    <hr class="uk-divider-small uk-text-right@m">
-                                </div>
-                                <div class="uk-width-expand@m">
-                                    <h4>Trading instruments</h4>
-                                    <p>Reprehenderit qui in svoluptate velit esse quam molestiae vel illum qui dolorem eum fugiat quo.</p>
-                                </div>
-                            </div>
-                            <div class="uk-margin-large" data-uk-grid>
-                                <div class="uk-width-1-3@m">
-                                    <h1 class="uk-text-primary uk-text-right@m">
-                                        <span class="count" data-counter-end="27">0</span>
-                                    </h1>
-                                    <hr class="uk-divider-small uk-text-right@m">
-                                </div>
-                                <div class="uk-width-expand@m">
-                                    <h4>Countries covered</h4>
-                                    <p>At vero eos et accusamus iusto dignissimos ducimus qui blanditiis praesentium voluta deleniti.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- section content end -->
+
     <!-- section content begin -->
     <div class="uk-section">
         <div class="uk-container">

@@ -32,9 +32,17 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/insight', function () {
-    return view('insight');
-})->name('insight');
+Route::get('/corevalue', function () {
+    return view('corevalue');
+})->name('corevalue');
+
+Route::get('/overview', function () {
+    return view('overview');
+})->name('overview');
+
+Route::get('/approach', function () {
+    return view('approach');
+})->name('approach');
 
 Route::get('/performance', function () {
     return view('performance');
