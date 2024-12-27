@@ -22,15 +22,15 @@
                         </ul> --}}
                     </div>
                     <div>
-                        <h4><span>{{ __('public.insight')}}</span></h4>
-                        <ul class="uk-list uk-link-text">
-                            <li><a href="/overview">{{ __('public.overview')}}</a></li>
-                            <li><a href="/approach">{{ __('public.approach')}}</a></li>
-                        </ul>
                         <h4><span>{{ __('public.about')}}</span></h4>
                         <ul class="uk-list uk-link-text">
                             <li><a href="/about">{{ __('public.about-us')}}</a></li>
                             <li><a href="/corevalue">{{ __('public.core-value')}}</a></li>
+                        </ul>
+                        <h4><span>{{ __('public.insight')}}</span></h4>
+                        <ul class="uk-list uk-link-text">
+                            <li><a href="/overview">{{ __('public.overview')}}</a></li>
+                            <li><a href="/approach">{{ __('public.approach')}}</a></li>
                         </ul>
                     </div>
                     <div>
@@ -100,12 +100,12 @@
         <div class="uk-grid">
             <div class="uk-width-3-4@m uk-visible@m">
                 <ul class="uk-subnav uk-subnav-divider">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/service">Service</a></li>
-                    <li><a href="/overview">Insight</a></li>
-                    <li><a href="/performance">Performance</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/">{{ __('public.home')}}</a></li>
+                    <li><a href="/about">{{ __('public.about')}}</a></li>
+                    <li><a href="/service">{{ __('public.service')}}</a></li>
+                    <li><a href="/overview">{{ __('public.insight')}}</a></li>
+                    <li><a href="/performance">{{ __('public.performance')}}</a></li>
+                    <li><a href="/contact">{{ __('public.contact')}}</a></li>
                 </ul>
             </div>
             <div class="uk-width-expand@m uk-text-right@m">

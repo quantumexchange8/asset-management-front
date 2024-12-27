@@ -48,7 +48,7 @@
                     <li>
                         <div class="in-optional-nav">
                             {{-- <a href="signin.html" class="uk-button uk-button-text"><i class="fas fa-user-circle uk-margin-small-right"></i>Log in</a> --}}
-                            <a href="{{ route('contact', app()->getLocale()) }}" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-medium-left">{{ __('public.contact')}}</a>
+                            <a href="/contact" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-medium-left">{{ __('public.contact')}}</a>
                         </div>
                     </li>
                     <li>

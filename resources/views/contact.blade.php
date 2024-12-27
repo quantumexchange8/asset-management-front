@@ -4,12 +4,23 @@
     @include('Layouts.header')
 @endsection
 @section('contents')
-        <!-- Display Success Message -->
-        @if (session('success'))
-        <div class="alert alert-success">
+    @if (session('success'))
+        <div class="alert alert-success uk-alert-success uk-border-rounded uk-padding-small" role="alert">
             {{ session('success') }}
         </div>
-        @endif
+    @endif
+
+    @if (session('error'))
+        <div class="alert alert-danger uk-alert-danger uk-border-rounded uk-padding-small" role="alert">
+            {{ session('error') }}
+        </div>
+    @endif
+
+    @if ($errors->has('captcha'))
+        <div class="alert alert-danger uk-alert-danger uk-border-rounded uk-padding-small" role="alert">
+            {{ $errors->first('captcha') }}
+        </div>
+    @endif
     <!-- section content begin -->
     <div class="uk-section">
         <div class="uk-container">
@@ -52,9 +63,11 @@
                                     <div class="uk-width-1-1">
                                         <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="Message"></textarea>
                                     </div>
-
-                                    <input type="hidden" id="recaptcha_token" name="recaptcha_token">
-
+                                    <div class="uk-width uk-inline uk-flex uk-items-center">
+                                        <img id="captchaImage" src="{{ captcha_src('default') }}" alt="CAPTCHA" class="uk-margin-right">
+                                        <span id="refreshCaptcha" class="uk-refresh-icon fas fa-arrows-rotate fa-sm uk-text-muted" style="cursor: pointer;"></span>
+                                        <input class="uk-input uk-border-rounded" type="text" id="captcha" name="captcha" placeholder="CAPTCHA code" required>
+                                    </div>
                                     <div class="uk-width-1-1">
                                         <button class="uk-button uk-button-primary uk-border-rounded uk-align-right" type="submit" name="submit">Send Message</button>
                                     </div>
@@ -70,32 +83,23 @@
 @endsection
 
 @section('scripts')
-<script src="https://www.google.com/recaptcha/api.js?render={{env('RECAPTCHA_SITE_KEY')}}"></script>
 <script>
-    grecaptcha.ready(function() {
-        grecaptcha.execute('{{env('RECAPTCHA_SITE_KEY')}}').then(function(token) {
-            document.getElementById('recaptcha_token').value = token;
-        });
-    });
-</script>
-<script>
-    $(document).ready(function() {
-        $('#contact-form').on('submit', function(e) {
-            e.preventDefault();
-            
+    document.addEventListener('DOMContentLoaded', function () {
+        const refreshCaptchaButton = document.getElementById('refreshCaptcha');
+        const captchaImage = document.getElementById('captchaImage');
 
-            $.ajax({
-                url: "{{ route('send.email') }}",
-                type: 'POST',
-                data: $(this).serialize(),
-                success: function(response) {
-                    alert('Your message has been sent successfully!');
-                },
-                error: function(xhr) {
-                    console.error('Error:', xhr.responseText);
-                    alert('There was an error sending your message. Please try again.');
-                }
+        if (refreshCaptchaButton && captchaImage) {
+            refreshCaptchaButton.addEventListener('click', function () {
+                captchaImage.src = '/captcha/refresh?' + new Date().getTime();
             });
+        }
+    });
+    
+    document.getElementById('refreshCaptcha').addEventListener('click', function () {
+    fetch("{{ route('captcha.refresh') }}")
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('captchaImage').src = data.captcha;
         });
     });
 </script>

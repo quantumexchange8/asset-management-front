@@ -5,46 +5,31 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\SendEmail;
 use Illuminate\Support\Facades\Mail;
-use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Log;
 
 class ContactController extends Controller
 {
     public function sendEmail(Request $request)
-        {$request->validate([
+    {
+        $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
-            'recaptcha_token' => 'required',
+            'captcha' => 'required|captcha', // Validate the CAPTCHA
+        ], [
+            'captcha.captcha' => 'The CAPTCHA verification failed. Please try again.',
         ]);
-    
-        $recaptchaResponse = $request->input('recaptcha_token');
-        
-        $client = new Client();
-            // Verify the reCAPTCHA response
-            $response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
-                'form_params' => [
-                    'secret' => env('RECAPTCHA_SECRET_KEY'),
-                    'response' => $recaptchaResponse,
-                    'remoteip' => $request->ip(),
-                ]
-            ]);
 
-            $responseBody = json_decode((string) $response->getBody());
-        if ($responseBody->success && $responseBody->score >= 0.5) {
-            try {
-                // Send email
-                Mail::to('jrjrjrjingru@gmail.com')->send(new SendEmail($request->all()));
-                session()->flash('success', 'Email sent successfully!');
-
-            } catch (\Exception $e) {
-                Log::error('Mail sending failed: ' . $e->getMessage());
-                session()->flash('error', 'There was an error sending your email. Please try again later.');
-            }
-        } else {
-            session()->flash('error', 'reCAPTCHA verification failed. Please try again.');
-        }  
+        try {
+            // Send email
+            Mail::to('jrjrjrjingru@gmail.com')->send(new SendEmail($request->all()));
+            session()->flash('success', 'Email sent successfully!');
+        } catch (\Exception $e) {
+            // Log the error and show an error message
+            Log::error('Mail sending failed: ' . $e->getMessage());
+            session()->flash('error', 'There was an error sending your email. Please try again later.');
+        }
         return redirect()->back();
     }
 }

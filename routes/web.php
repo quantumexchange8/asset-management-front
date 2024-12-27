@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+use Mews\Captcha\Facades\Captcha;
 
 // Redirect to the default locale if no locale is specified
 Route::get('localization/{locale}', function ($locale) {
@@ -62,3 +63,5 @@ Route::get('/faq', function () {
 
 Route::post('/sendmail', [ContactController::class, 'sendEmail'])->name('send.email');
 
+Route::get('captcha', [Captcha::class, 'create'])->name('captcha'); 
+Route::get('/captcha/refresh', [Captcha::class, 'create'])->name('captcha.refresh');
