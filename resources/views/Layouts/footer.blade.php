@@ -3,7 +3,7 @@
         <div class="uk-grid-medium" data-uk-grid="">
             <div class="uk-width-expand@m">
                 <div class="footer-logo">
-                    <img class="uk-display-block" src="img/user/footer-logo-3WIDIh.svg" alt="footer-logo" width="134" height="23" data-uk-img="">
+                    <img class="uk-display-block" src="img/logo/VoltaFullLogo.svg" alt="footer-logo" width="140" height="35" data-uk-img="">
                 </div>
                 <p class="uk-text-large uk-margin-small-top">Trade with financial thinking.</p>
                 <p class="uk-visible@m">Company Name<br>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Premium HTML5 Template by Indonez">
     <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
-    <meta name="theme-color" content="#3ca977">
+    <meta name="theme-color" content="#cca05a">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- preload assets -->
     <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>

@@ -2,8 +2,8 @@
     <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky="start: 700; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-white uk-box-shadow-medium; cls-inactive:in-header-inverse uk-navbar-transparent">
         <div class="uk-container" data-uk-navbar>
             <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between">
-                <a class="uk-navbar-item uk-logo" href="/" data-logo-inverse="filename: header-logo-WeY2ag.svg" >
-                    <img src="img/user/header-logo-EelGlt.svg" alt="logo" width="134" height="23">
+                <a class="uk-navbar-item uk-logo" href="/" data-logo-inverse="filename: VoltaFullLogo.svg" >
+                    <img src="img/logo/VoltaFullLogo.svg" alt="logo" width="160" height="39">
                 </a>
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li><a href="/">{{ __('public.home')}}</a></li>

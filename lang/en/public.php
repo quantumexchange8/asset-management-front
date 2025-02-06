@@ -13,6 +13,7 @@ return [
     'contact' => 'Contact Us',
     'language' => 'Language',
     'quick-links' => 'Quick Links',
+    'corevalue' => 'Core Value',
 
 
     'ceo-message-1' => "XXXX has been expanding into global markets for over 10 years. Each year, we strive to improve and make progress. The year 2020 marked an important milestone for us. Following a business restructuring, PNK decided to upgrade its compliance audits and regulatory licensing levels by submitting applications to European and American governments. PNK is also actively cooperating with regulatory authorities to calculate and increase margin guarantees and to process membership qualification reviews. This signifies a positive indicator for the growth trajectory of XXX's business expansion plan and market coverage.",
