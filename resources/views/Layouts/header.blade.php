@@ -59,7 +59,7 @@
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li>
                         <div class="in-optional-nav">
-                            <a href="/contact" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-medium-left">{{ __('public.contact')}}</a>
+                            <a href="https://login.voltaasia.com/" class="uk-button uk-button-primary uk-button-small uk-border-pill uk-margin-medium-left">{{ __('public.login')}}</a>
                         </div>
                     </li>
                     <li>

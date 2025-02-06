@@ -12,7 +12,7 @@
             <div class="uk-grid">
                 <div class="uk-width-1-1">
                     <h1 class=" ">Our <span class="in-highlight">Company</span></h1>
-                    <p class="uk-text-lead uk-text-muted uk-margin-small-top">XXXXXXXXX has been a trusted partner in asset management.</p>
+                    <p class="uk-text-lead uk-text-muted uk-margin-small-top">Volta Asia has been a trusted partner in asset management.</p>
 
                     <div class="uk-grid uk-child-width-1-2@m uk-grid-match" data-uk-grid>
                         <div class="uk-width-1-3@m">

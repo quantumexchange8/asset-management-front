@@ -160,7 +160,7 @@
                 <div class="uk-width-1-2@m">
                     {{-- <img class="uk-margin-bottom" src="img/in-lazy.gif" data-src="img/in-wave-icon-5.svg" alt="wave-icon" width="64" height="64" data-uk-img> --}}
                     <h1 class="uk-margin-remove"> <span class="in-highlight">Introduction</span></h1>
-                    <p>XXX is a leading asset management group specializing in proprietary trading. Our team comprises experts from renowned financial institutions, bringing together extensive experience, deep expertise, and advanced trading technologies. We are committed to delivering outstanding returns while minimizing risk, providing our clients with superior investment management services and consistent, exceptional results.</p>
+                    <p>Volta Asia is a leading asset management group specializing in proprietary trading. Our team comprises experts from renowned financial institutions, bringing together extensive experience, deep expertise, and advanced trading technologies. We are committed to delivering outstanding returns while minimizing risk, providing our clients with superior investment management services and consistent, exceptional results.</p>
                     <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center uk-margin-medium-top" data-uk-grid>
                         <div class="uk-width-auto">
                             <a class="uk-button uk-button-primary uk-border-rounded uk-button-center" href="/contact">Contact Us</a>
@@ -185,7 +185,7 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-3-4@m">
-                    <h1 class="uk-margin-remove-bottom">Why <span class="in-highlight">XXXX</span>?</h1>
+                    <h1 class="uk-margin-remove-bottom">Why <span class="in-highlight">Volta Asia</span>?</h1>
                 </div>
             </div>
             <div class="uk-grid-large uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-large-top" data-uk-grid>
