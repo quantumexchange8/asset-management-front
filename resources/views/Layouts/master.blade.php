@@ -5,8 +5,8 @@
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Premium HTML5 Template by Indonez">
-    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
+    <meta name="description" content="No Index">
+    <meta name="keywords" content="">
     <meta name="theme-color" content="#cca05a">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- preload assets -->
@@ -24,10 +24,10 @@
     <!-- uikit -->
     <script src="js/vendors/uikit.min.js"></script>
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo/favicon3.ico" type="image/x-icon">
     <!-- touch icon -->
-    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-    <title>XXXX | @yield('title') </title>
+    <link rel="apple-touch-icon-precomposed" href="img/logo/apple-touch-icon.png">
+    <title>Volta Asia | @yield('title') </title>
 </head>
 
 <body>
