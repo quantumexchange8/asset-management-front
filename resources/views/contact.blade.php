@@ -1,5 +1,5 @@
 @extends('Layouts.master')
-@section('title', 'Contact Us')
+@section('title', __('public.contact_us'))
 @section('header')
     @include('Layouts.header')
 @endsection
@@ -26,23 +26,15 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-3-5@m">
-                    <h1 class="uk-margin-remove-bottom">Contact Us</h1>
-                    <p class="uk-text-lead uk-text-muted uk-margin-small-top">Do not hesitate to reach out. Just fill in the contact form here and we’ll be sure to reply as fast as possible.</p>
+                    <h1 class="uk-margin-remove-bottom">{{ __('public.contact_us') }}</h1>
+                    <p class="uk-text-lead uk-text-muted uk-margin-small-top">{{ __('public.contact_us_description') }}</p>
                 </div>
                 <div class="uk-width-1-1@m uk-margin-large-top">
                     <div class="uk-grid uk-grid-large" data-uk-grid>
                         <div class="uk-width-1-3@m">
-                            <h4 class="uk-margin-remove-bottom">Visit our office</h4>
-                            <p class="uk-margin-small-top">[address]</p>
-                            <h4 class="uk-margin-medium-top uk-margin-remove-bottom">Message us</h4>
-                            <p class="uk-margin-small-top">email.com<br>(888)234-5678</p>
-                            <div class="uk-margin-medium-top in-wave-socials-contact">
-                                <a href="#" class="fab fa-facebook-square fa-lg uk-text-decoration-none uk-margin-right"></a>
-                                <a href="#" class="fab fa-twitter fa-lg uk-text-decoration-none uk-margin-right"></a>
-                                <a href="#" class="fab fa-linkedin-in fa-lg uk-text-decoration-none uk-margin-right"></a>
-                                <a href="#" class="fab fa-instagram fa-lg uk-text-decoration-none uk-margin-right"></a>
-                                <a href="#" class="fab fa-pinterest fa-lg uk-text-decoration-none uk-margin-right"></a>
-                            </div>
+                            <h4 class="uk-margin-medium-top uk-margin-remove-bottom">{{ __('public.message_us') }}</h4>
+                            <p class="uk-margin-small-top">{{ __('public.email') }}
+                           
                         </div>
                         <div class="uk-width-2-3@m">
                             <div class="uk-margin-medium-left in-margin-remove-left@s">
@@ -50,26 +42,26 @@
                                     @csrf
                                     <div class="uk-width-1-2@s uk-inline">
                                         <span class="uk-form-icon fas fa-user fa-sm"></span>
-                                        <input class="uk-input uk-border-rounded" id="name" name="name" type="text" placeholder="Full name">
+                                        <input class="uk-input uk-border-rounded" id="name" name="name" type="text" placeholder="{{ __('public.full_name') }}">
                                     </div>
                                     <div class="uk-width-1-2@s uk-inline">
                                         <span class="uk-form-icon fas fa-envelope fa-sm"></span>
-                                        <input class="uk-input uk-border-rounded" id="email" name="email" type="email" placeholder="Email address">
+                                        <input class="uk-input uk-border-rounded" id="email" name="email" type="email" placeholder="{{ __('public.email_address') }}">
                                     </div>
                                     <div class="uk-width-1-1 uk-inline">
                                         <span class="uk-form-icon fas fa-pen fa-sm"></span>
-                                        <input class="uk-input uk-border-rounded" id="subject" name="subject" type="text" placeholder="Subject">
+                                        <input class="uk-input uk-border-rounded" id="subject" name="subject" type="text" placeholder="{{ __('public.subject') }}">
                                     </div>
                                     <div class="uk-width-1-1">
-                                        <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="Message"></textarea>
+                                        <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="{{ __('public.message') }}"></textarea>
                                     </div>
                                     <div class="uk-width uk-inline uk-flex uk-items-center">
                                         <img id="captchaImage" src="{{ captcha_src('default') }}" alt="CAPTCHA" class="uk-margin-right">
                                         <span id="refreshCaptcha" class="uk-refresh-icon fas fa-arrows-rotate fa-sm uk-text-muted" style="cursor: pointer;"></span>
-                                        <input class="uk-input uk-border-rounded" type="text" id="captcha" name="captcha" placeholder="CAPTCHA code" required>
+                                        <input class="uk-input uk-border-rounded" type="text" id="captcha" name="captcha" placeholder="{{ __('public.captcha_code') }}" required>
                                     </div>
                                     <div class="uk-width-1-1">
-                                        <button class="uk-button uk-button-primary uk-border-rounded uk-align-right" type="submit" name="submit">Send Message</button>
+                                        <button class="uk-button uk-button-primary uk-border-rounded uk-align-right" type="submit" name="submit">{{ __('public.send_message') }}</button>
                                     </div>
                                 </form>
                             </div>
@@ -96,11 +88,11 @@
     });
     
     document.getElementById('refreshCaptcha').addEventListener('click', function () {
-    fetch("{{ route('captcha.refresh') }}")
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('captchaImage').src = data.captcha;
-        });
+        fetch("{{ route('captcha.refresh') }}")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('captchaImage').src = data.captcha;
+            });
     });
 </script>
 @endsection

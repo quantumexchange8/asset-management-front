@@ -17,9 +17,12 @@ return [
     'login' => 'Login',
 
 
-    'ceo-message-1' => "Volta Asia has been expanding into global markets for over 10 years. Each year, we strive to improve and make progress. The year 2020 marked an important milestone for us. Following a business restructuring, PNK decided to upgrade its compliance audits and regulatory licensing levels by submitting applications to European and American governments. PNK is also actively cooperating with regulatory authorities to calculate and increase margin guarantees and to process membership qualification reviews. This signifies a positive indicator for the growth trajectory of Volta Asia's business expansion plan and market coverage.",
-    'ceo-message-2' => 'There are numerous forex service providers worldwide. Each year, Volta Asia witnesses many leaving the market while new providers join. Volta Asia has managed to survive and grow in this competitive market not only by offering professional services but also by supporting systematic trading strategies. Strategy support is our core competitive advantage. In 2017, Volta Asia transitioned from being a forex service provider to a strategy provider. The financial market encompasses many arbitrage strategies. PNK continuously conducts research and practical applications to build professional mathematical models and databases. When a trading strategy becomes widely used, its profit potential diminishes. Volta Asia can quickly retrieve new trading strategies from its database, ensuring its leading edge and consistently delivering profits to users.',
-    'ceo-message-3' => 'After achieving success in hedge arbitrage, we introduced a new strategy—neutral arbitrage—in 2020, which we believe will yield even greater gains. Volta Asia has always been growing and actively maintaining its competitive edge. Within the next five years, PNK plans to establish PXX International Investment Bank. Volta Asia looks forward to sharing the dividends of growth with global investor',
+    'ceo-message-1' => "Volta Asia has been expanding into global markets for over 10 years. Each year, we strive to improve and make progress. The year 2020 marked an important milestone for us. Following a business restructuring, Volta Asia decided to upgrade its compliance audits and regulatory licensing levels by submitting applications to European and American governments. Volta Asia is also actively cooperating with regulatory authorities to calculate and increase margin guarantees and to process membership qualification reviews. This signifies a positive indicator for the growth trajectory of Volta Asia's business expansion plan and market coverage.",
+
+    'ceo-message-2' => 'There are numerous forex service providers worldwide. Each year, Volta Asia witnesses many leaving the market while new providers join. Volta Asia has managed to survive and grow in this competitive market not only by offering professional services but also by supporting systematic trading strategies. Strategy support is our core competitive advantage. In 2017, Volta Asia transitioned from being a forex service provider to a strategy provider. The financial market encompasses many arbitrage strategies. Volta Asia continuously conducts research and practical applications to build professional mathematical models and databases. When a trading strategy becomes widely used, its profit potential diminishes. Volta Asia can quickly retrieve new trading strategies from its database, ensuring its leading edge and consistently delivering profits to users.After achieving success in hedge arbitrage, we introduced a new strategy—neutral arbitrage—in 2020, which we believe will yield even greater gains. Volta Asia has always been growing and actively maintaining its competitive edge.',
+
+   
+
 
     'overview-title' => 'What is Arbitrage?',
     'overview-desc' => 'Arbitrage mechanisms exist throughout capital markets. These mechanisms ensure relatively accurate pricing of financial products. However, when arbitrage mechanisms are absent, financial product prices can fluctuate significantly. A recent example is the substantial premium deviation of some tiered funds from their historical averages, which vividly demonstrates the importance of arbitrage as a cornerstone for financial product pricing.',
@@ -97,18 +100,22 @@ return [
 
    // Introduction Section
    'introduction' => 'Introduction',
-   'introduction_text' => 'Volta Asia is a leading asset management group specializing in proprietary trading...',
+   'introduction_text' => 'Volta Asia is a leading asset management group specializing in proprietary trading. Our team comprises experts from renowned financial institutions, bringing together extensive experience, deep expertise, and advanced trading technologies. We are committed to delivering outstanding returns while minimizing risk, providing our clients with superior investment management services and consistent, exceptional results.',
 
-   // Why Choose Us
-   'why_choose' => 'Why Volta Asia?',
-   'proprietary_trading' => 'Proprietary Trading Expertise',
-   'proprietary_trading_text' => 'We specialize in proprietary trading at the forefront of the financial industry...',
-   'personalized_solution' => 'Personalized Solution',
-   'personalized_solution_text' => 'We recognize that each investor has unique needs and goals...',
-   'proven_track_record' => 'Proven Track Record',
-   'proven_track_record_text' => 'We have a strong track record of consistently delivering reliable returns...',
-   'commitment_values' => 'Commitment to Core Values',
-   'commitment_values_text' => 'We believe that trust, transparency, and accountability are the foundation of success...',
+    //why choose us 
+    'why_choose' => 'Why Volta Asia?',
+    'proprietary_trading' => 'Proprietary Trading Expertise',
+    'proprietary_trading_text' => 'We specialize in proprietary trading at the forefront of the financial industry. With extensive experience in quantitative financial analytics and trading, our team possesses a profound understanding of the intricacies of global financial markets. This expertise allows us to identify and capitalize on market inefficiencies, delivering superior returns for our clients while maintaining robust risk management strategies.',
+
+    'personalized_solution' => 'Personalized Solution',
+    'personalized_solution_text' => 'We recognize that each investor has unique needs and goals, which is why we provide customized solutions tailored to their specific investment objectives. Our personalized approach ensures that our clients receive tailored financial strategies designed to align with their aspirations, investment horizons, and risk tolerances. By leveraging data-driven insights and in-depth market analysis, we empower clients to optimize their financial growth.',
+
+    'proven_track_record' => 'Proven Track Record',
+    'proven_track_record_text' => 'We have a strong track record of consistently delivering reliable returns to our clients. Our performance is backed by years of experience, disciplined execution, and continuous innovation in trading strategies. By combining cutting-edge technology with expert market analysis, we ensure that our clients benefit from sustainable long-term growth and financial stability.',
+
+    'commitment_values' => 'Commitment to Core Values',
+    'commitment_values_text' => 'We believe that trust, transparency, and accountability are the foundation of success. At Volta Asia, we are dedicated to fostering enduring relationships with our clients, ensuring that every investment decision is made with integrity, fairness, and professionalism. Our commitment to ethical financial practices and client-centric service sets us apart as a trusted partner in wealth management.',
+
 
    // Contact
    'contact_us' => 'Contact Us',
@@ -139,7 +146,7 @@ return [
 
     // Sections
     'services' => 'Services',
-    'services_text' => 'We provide a variety of investment options to match our clients\' unique needs, including Fund Management Products, Financial Planning, and Personal Coaching.',
+    'services_text' => 'We provide a variety of investment options to match our clients unique needs, including Fund Management Products, Financial Planning, and Personal Coaching.',
 
     'fund_management' => 'Fund Management',
     'fund_management_text' => 'Our Fund Management Products are professionally developed to accommodate investors with varying tolerances for risk. Our professional fund manager is always monitoring these products to ensure optimal performance and stability.',
@@ -155,13 +162,13 @@ return [
 
     // Consultant Section
     'consultant_question' => 'Do you need a consultant?',
-    'consultant_text' => 'Please do not hesitate to contact us at [email.com] or fill up the contact form.',
+    'consultant_text' => 'Please do not hesitate to contact us at support@voltaasia.com or fill up the contact form.',
     'contact_us' => 'Contact Us',
 
      // Performance Section
      'performance' => 'Performance',
      'portfolio_managers_performance' => 'Portfolio Managers Performance',
-     'portfolio_performance_text' => 'We emphasize personal accountability in managing our clients\' funds. To ensure our traders act with the utmost care and responsibility, they are required to invest their own funds alongside those of our clients. No matter which portfolio manager you choose, you can trust their dedication, vigilance, and unwavering commitment to maximizing your returns over time.',
+     'portfolio_performance_text' => 'We emphasize personal accountability in managing our clients funds. To ensure our traders act with the utmost care and responsibility, they are required to invest their own funds alongside those of our clients. No matter which portfolio manager you choose, you can trust their dedication, vigilance, and unwavering commitment to maximizing your returns over time.',
      
      // Contact Section
      'want_to_know_more' => 'Want To Know More?',
@@ -169,6 +176,21 @@ return [
      'tags' => 'Tags',
      'tag_arbitrage' => 'Arbitrage',
      'tag_forex' => 'Forex',
+
+     'contact_us_description' => 'Do not hesitate to reach out. Just fill in the contact form here and we’ll be sure to reply as fast as possible.',
+     'message_us' => 'Message us',
+     'email' => 'support@voltaasia.com',
+     'full_name' => 'Full Name',
+     'email_address' => 'Email Address',
+     'subject' => 'Subject',
+     'message' => 'Message',
+     'captcha_code' => 'CAPTCHA Code',
+     'send_message' => 'Send Message',
+     'want_to_know_more' => 'Want To Know More?',
+     'our_company_title' => 'Our Company',
+     'our_company_description' => 'Volta Asia has been a trusted partner in asset management.',
+     'our_company_paragraph_1' => 'As a prominent leader in the wealth management industry, we recognize the critical importance of balancing professional expertise with a client-centered approach. Successful wealth management relies on seamlessly integrating and transitioning between these two perspectives. Professional expertise forms the foundation for delivering consistent, reliable advice aimed at preserving and growing our clients\' wealth.',
+     'our_company_paragraph_2' => 'Meanwhile, experiential thinking plays a vital role in implementing that advice, allowing us to better address the needs of both rational and emotional investors. Our ability to strike this balance distinguishes us as a trusted leader in the industry. Our assistance and guidance help clients embark on the path of maintaining and increasing their portfolio\'s value over time.',
 
    
 ];
