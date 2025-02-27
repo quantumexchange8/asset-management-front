@@ -1,5 +1,5 @@
 @extends('Layouts.master')
-@section('title','Performance 1')
+@section('title', __('public.performance_1'))
 @section('header')
     @include('Layouts.header')
 @endsection
@@ -15,13 +15,12 @@
                         <div class="uk-card-body">
                             <div class="uk-grid uk-flex uk-flex-center">
                                 <div class="uk-width-3-4@mservice uk-text-center">
-                                    <h2>Portfolio MANAGERs PERFORMANCE</h2>
-                                    <p>We emphasize personal accountability in managing our clients' funds. To ensure our traders act with the utmost care and responsibility, they are required to invest their own funds alongside those of our clients. No matter which portfolio manager you choose, you can trust their dedication, vigilance, and unwavering commitment to maximizing your returns over time.</p>
+                                    <h2>{{ __('public.portfolio_managers_performance') }}</h2>
+                                    <p>{{ __('public.portfolio_performance_text') }}</p>
                                 </div>
                             </div>
                             <div class="uk-grid uk-child-width-1-1@m uk-margin-medium-top" data-uk-grid="">
-                                <img src="img/performance.jpg" class="uk-align-center"  width=100% height=100%>
-                              
+                                <img src="img/performance.jpg" class="uk-align-center" width="100%" height="100%">
                             </div>
                         </div>
                     </div>
@@ -29,15 +28,17 @@
             </div>
         </div>
     </div>
+    
+    <!-- Contact Section -->
     <div class="uk-section">
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-1-1">
                     <div class="uk-card uk-card-primary uk-box-shadow-small uk-border-rounded uk-background-cover" style="background-image: url(img/blockit/in-card-background-1.jpg);">
                         <div class="uk-card-body">
-                            <h2 class="uk-margin-remove-bottom">Want To Know More?</h2>
-                            <p class="uk-margin-small-top">Please do not hesitate to contact us at [email.com] or fill up the contact form.</p>
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="/contact">Contact Us</a>
+                            <h2 class="uk-margin-remove-bottom">{{ __('public.want_to_know_more') }}</h2>
+                            <p class="uk-margin-small-top">{{ __('public.contact_us_message') }}</p>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="/contact">{{ __('public.contact_us') }}</a>
                         </div>
                     </div>
                 </div>
@@ -45,5 +46,6 @@
         </div>
     </div>
     <!-- section content end -->
+
 </main>
 @endsection

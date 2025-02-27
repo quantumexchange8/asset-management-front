@@ -46,5 +46,129 @@ return [
     'approach-step-8' => 'Gradual Rollout to Retail Clients',
     'approach-subtitle' => 'Neutral Arbitrage',
     'approach-subdesc' => 'Known as "standing on the shoulders of giants," neutral arbitrage contrasts with active investment by prioritizing objective, rational decision-making. The forex market is highly volatile, while human emotions—greed, fear, hesitation, recklessness—are inevitable weaknesses. These emotions often lead to poor decision-making. In contrast, quantitative trading operates without human interference once a model is deployed, minimizing emotional impacts and achieving rational, objective investments.',
+      // General
+      'title' => 'Insight',
+      'mission_vision' => 'Our <span class="in-highlight">Mission & Vision</span>',
+      'our_vision' => 'Our Vision',
+      'vision_text' => 'We aim to foster long-term relationships with our investors by delivering consistent returns and an outstanding investment experience.',
+      'our_mission' => 'Our Mission',
+      'mission_text' => 'We empower our clients with the knowledge and tools they need to confidently navigate the investment market.',
+        // Core Values
+    'our_core_values' => 'Our <span class="in-highlight">Core Values</span>',
+    'core_values_text' => 'We are a group of passionate, independent thinkers who never stop exploring new ways to improve trading.',
+    'core_value_1' => 'Building a strong foundation of investment knowledge is at the core of our service.',
+    'core_value_2' => 'We prioritize understanding each client’s unique investment outlook.',
+    'core_value_3' => 'Our success lies in balancing professional expertise with client-focused empathy.',
+    'core_value_4' => 'These principles empower us to deliver exceptional value in investments.',
 
+    // Why Choose Us
+    'choose_us' => 'Why <span class="in-highlight">Choose Us</span>',
+    'professional_team' => 'Professional Team',
+    'professional_team_text' => 'Our team consists of highly skilled and experienced professionals committed to helping you achieve your investment goals.',
+    'multi_asset_investing' => 'Multi-Asset Investing',
+    'multi_asset_investing_text' => 'We provide investment options spanning multiple asset classes, helping you build a balanced portfolio.',
+    'client_experience' => 'Client-Driven Experience',
+    'client_experience_text' => 'We prioritize our clients above all else, fostering long-term relationships built on trust and transparency.',
+ // Footer
+ 'copyright' => '© 2024 All Rights Reserved.',
+ 'trade_thinking' => 'Trade with financial thinking.',
+ //header
+ 'trading_risk' => 'Trading involves substantial risk and may result in the loss of your invested capital or greater than your invested capital, respectively.',
+ // About Us Page
+ 'about_us' => 'About Us',
+ 'our_company' => 'Our Company',
+ 'company_intro' => 'Volta Asia has been a trusted partner in asset management.',
+ 'company_description_1' => 'As a prominent leader in the wealth management industry, we recognize the critical importance of balancing professional expertise with a client-centered approach.',
+ 'company_description_2' => 'Our assistance and guidance help clients embark on the path of maintaining and increasing their portfolio’s value over time.',
+
+ // CEO Message Section
+ 'ceo_message_1' => "Our company has been expanding into global markets for over 10 years. Each year, we strive to improve and innovate. In 2020, we reached a significant milestone, upgrading our compliance audits and regulatory licensing levels to meet international standards.",
+ 'ceo_message_2' => 'Our competitive advantage lies in our strategic approach to investment, utilizing advanced financial models and systematic trading strategies. By leveraging data-driven decision-making, we ensure sustainable growth and long-term profitability.',
+ 
+ // Contact Section
+ 'want_to_know_more' => 'Want To Know More?',
+ 'contact_us_message' => 'Please do not hesitate to contact us at support@voltaasia.com  or fill up the contact form.',
+ 'contact_us' => 'Contact Us',
+ 
+   // Slideshow Section
+   'slideshow_title' => 'Partner with us to unlock your path to financial success',
+   'slideshow_text' => 'Empowering you to manage your assets with precision, security, and insight.',
+   'discover_now' => 'Discover it now',
+
+   // Introduction Section
+   'introduction' => 'Introduction',
+   'introduction_text' => 'Volta Asia is a leading asset management group specializing in proprietary trading...',
+
+   // Why Choose Us
+   'why_choose' => 'Why Volta Asia?',
+   'proprietary_trading' => 'Proprietary Trading Expertise',
+   'proprietary_trading_text' => 'We specialize in proprietary trading at the forefront of the financial industry...',
+   'personalized_solution' => 'Personalized Solution',
+   'personalized_solution_text' => 'We recognize that each investor has unique needs and goals...',
+   'proven_track_record' => 'Proven Track Record',
+   'proven_track_record_text' => 'We have a strong track record of consistently delivering reliable returns...',
+   'commitment_values' => 'Commitment to Core Values',
+   'commitment_values_text' => 'We believe that trust, transparency, and accountability are the foundation of success...',
+
+   // Contact
+   'contact_us' => 'Contact Us',
+
+    // Consultant Section
+    'consultant_question' => 'Do you need a consultant?',
+    'consultant_text' => 'Please do not hesitate to contact us at support@voltaasia.com or fill up the contact form.',
+
+    // Explore Products & Services Section
+    'explore_products' => 'Explore Our Products & Services',
+
+    // Fund Management Products
+    'fund_management' => 'Fund Management Products',
+    'fund_management_text' => 'Our Fund Management Products are expertly designed to accommodate investors with diverse risk preferences. Whether you seek stable returns or high-growth opportunities, we provide tailored solutions to meet your investment needs.',
+
+    // Financial Planning
+    'financial_planning' => 'Financial Planning',
+    'financial_planning_text' => 'Our expert financial planners deliver one-stop, full-service investment strategies and solutions. By identifying your personal or organizational needs, we craft customized financial plans that ensure long-term success.',
+
+    // Personal Coaching
+    'personal_coaching' => 'Personal Coaching',
+    'personal_coaching_text' => 'We offer Personal Coaching services to empower clients with the tools and mindset needed to improve their financial habits. Our personalized coaching sessions help you gain clarity, confidence, and control over your financial journey.',
+
+    // General
+    'products_services' => 'Products & Services',
+    'products_services_title' => 'Our <span class="in-highlight">Products & Services</span>',
+    'products_services_text' => 'Explore our range of tailored solutions designed to meet your unique financial needs and goals.',
+
+    // Sections
+    'services' => 'Services',
+    'services_text' => 'We provide a variety of investment options to match our clients\' unique needs, including Fund Management Products, Financial Planning, and Personal Coaching.',
+
+    'fund_management' => 'Fund Management',
+    'fund_management_text' => 'Our Fund Management Products are professionally developed to accommodate investors with varying tolerances for risk. Our professional fund manager is always monitoring these products to ensure optimal performance and stability.',
+
+    'investment_strategies' => 'Investment Strategies',
+    'investment_strategies_text' => 'Our expert financial planners offer comprehensive, one-stop investment strategies and solutions tailored to meet each client\'s personal or organizational needs and goals.',
+
+    'personal_coaching' => 'Personal Coaching',
+    'personal_coaching_text' => 'We provide Personal Coaching services to help clients enhance their relationship with money and stay focused on achieving their financial goals.',
+
+    'investment_solutions' => 'Investment Solutions',
+    'investment_solutions_text' => 'We are dedicated to providing exceptional investment solutions and services, thoughtfully tailored to meet the unique needs and preferences of each client.',
+
+    // Consultant Section
+    'consultant_question' => 'Do you need a consultant?',
+    'consultant_text' => 'Please do not hesitate to contact us at [email.com] or fill up the contact form.',
+    'contact_us' => 'Contact Us',
+
+     // Performance Section
+     'performance' => 'Performance',
+     'portfolio_managers_performance' => 'Portfolio Managers Performance',
+     'portfolio_performance_text' => 'We emphasize personal accountability in managing our clients\' funds. To ensure our traders act with the utmost care and responsibility, they are required to invest their own funds alongside those of our clients. No matter which portfolio manager you choose, you can trust their dedication, vigilance, and unwavering commitment to maximizing your returns over time.',
+     
+     // Contact Section
+     'want_to_know_more' => 'Want To Know More?',
+
+     'tags' => 'Tags',
+     'tag_arbitrage' => 'Arbitrage',
+     'tag_forex' => 'Forex',
+
+   
 ];

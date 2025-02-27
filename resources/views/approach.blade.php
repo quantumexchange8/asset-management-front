@@ -69,16 +69,13 @@
                         </div>
                         <div class="uk-card-footer uk-clearfix">
                             <div class="uk-float-left in-article-tags">
-                                <i class="fas fa-tags"></i><span class="uk-margin-small-left uk-text-bold">Tags: &nbsp;</span>
-                                <a href="#" class="uk-link-muted">arbitrage </a>,&nbsp;
-                                <a href="#" class="uk-link-muted">forex </a>
+                                <i class="fas fa-tags"></i>
+                                <span class="uk-margin-small-left uk-text-bold">{{ __('public.tags') }}: &nbsp;</span>
+                                <a href="#" class="uk-link-muted">{{ __('public.tag_arbitrage') }}</a>,&nbsp;
+                                <a href="#" class="uk-link-muted">{{ __('public.tag_forex') }}</a>
+                                
                             </div>
-                            <div class="uk-float-right in-article-share share-btn">
-                                <a class="uk-label color-facebook" data-id="fb"><i class="fab fa-facebook-f"></i></a>
-                                <a class="uk-label color-twitter" data-id="tw"><i class="fab fa-twitter"></i></a>
-                                <a class="uk-label color-pinterest" data-id="pi"><i class="fab fa-pinterest-p"></i></a>
-                                <a class="uk-label color-email" data-id="mail"><i class="fas fa-envelope"></i></a>
-                            </div>
+                           
                         </div>
                     </article>
                 </div>

@@ -5,10 +5,7 @@
                 <div class="footer-logo">
                     <img class="uk-display-block" src="img/logo/VoltaFullLogo.svg" alt="footer-logo" width="140" height="35" data-uk-img="">
                 </div>
-                <p class="uk-text-large uk-margin-small-top">Trade with financial thinking.</p>
-                <p class="uk-visible@m">Company Name<br>
-                Address<br>
-                </p>
+                <p class="uk-text-large uk-margin-small-top">{{ __('public.trade_thinking') }}</p>
             </div>
             <div class="uk-width-3-5@m">
                 <div class="uk-child-width-1-3@s uk-child-width-1-3@m" data-uk-grid="">
@@ -109,7 +106,7 @@
                 </ul>
             </div>
             <div class="uk-width-expand@m uk-text-right@m">
-                <p class="copyright-text">Copyright ©  Company Name</p>
+                <p class="copyright-text">{{ __('public.copyright') }}</p>
             </div>
         </div>
     </div>

@@ -46,4 +46,132 @@ return [
     'approach-step-8' => '全面为零售客户开放',
     'approach-subtitle' => '中和套利',
     'approach-subdesc' => '中和套利交易被一些人称为是“站在巨人的肩膀上赚钱”，与主动投资相比，量化交易在进行投资决策的过程中，会更加客观和理性。外汇市场是十分多变的，人又是感性的动物。贪婪、恐惧、犹豫、鲁莽......都是人类所无法避免的弱点，这些都可能会导致决策的失误。而量化投资在模型确定并投入使用后，就完全交由计算机进行，一般拒绝认为干预，可以将人的情绪化影响降到很低，做到理性客观的投资。',
+   
+    // General
+    'title' => '洞察',
+    'mission_vision' => '我们的 <span class="in-highlight">使命与愿景</span>',
+    'our_vision' => '我们的愿景',
+    'vision_text' => '我们致力于与投资者建立长期关系，并提供持续稳定的回报。',
+    'our_mission' => '我们的使命',
+    'mission_text' => '我们赋予客户知识和工具，使他们能够自信地驾驭投资市场。',
+
+    // Core Values
+    'our_core_values' => '我们的 <span class="in-highlight">核心价值观</span>',
+    'core_values_text' => '我们是一群充满激情的独立思考者，不断探索新的交易方式。',
+    'core_value_1' => '建立投资知识的坚实基础是我们的核心服务。',
+    'core_value_2' => '我们优先考虑每位客户的独特投资展望。',
+    'core_value_3' => '我们的成功在于平衡专业技能与客户需求。',
+    'core_value_4' => '这些原则使我们能够提供卓越的投资价值。',
+
+    // Why Choose Us
+    'choose_us' => '为什么 <span class="in-highlight">选择我们</span>',
+    'professional_team' => '专业团队',
+    'professional_team_text' => '我们拥有经验丰富的专业团队，为客户提供个性化的投资建议。',
+    'multi_asset_investing' => '多资产投资',
+    'multi_asset_investing_text' => '我们提供涵盖多种资产类别的投资选择，以构建平衡的投资组合。',
+    'client_experience' => '以客户为中心',
+    'client_experience_text' => '我们致力于建立长期信任关系，并提供透明的投资建议。',
+
+    // Footer
+    'copyright' => '© 2024 保留所有权利。',
+    'trade_thinking' => '用金融思维交易。',
+
+    //header
+    'trading_risk' => '交易涉及重大风险，可能导致损失超过您的投资资本。',
+
+     // About Us Page
+     'about_us' => '关于我们',
+     'our_company' => '我们的公司',
+     'company_intro' => 'Volta Asia 是值得信赖的资产管理合作伙伴。',
+     'company_description_1' => '作为财富管理行业的领导者，我们认识到平衡专业知识与以客户为中心的方法至关重要。',
+     'company_description_2' => '我们的帮助和指导使客户能够在时间的推移中保持和增加投资组合的价值。',
+ 
+     // CEO Message Section
+     'ceo_message_1' => "我们的公司已进入全球市场超过 10 年。每年，我们都在努力改进和创新。2020 年，我们达到了一个重要的里程碑，升级了合规审计和监管许可，以满足国际标准。",
+     'ceo_message_2' => '我们的竞争优势在于我们对投资的战略方法，利用先进的金融模型和系统交易策略。通过数据驱动的决策，我们确保可持续增长和长期盈利能力。',
+    
+     // Contact Section
+     'want_to_know_more' => '想了解更多信息？',
+     'contact_us_message' => '请随时通过support@voltaasia.com 联系我们或填写联系表格。',
+     'contact_us' => '联系我们',
+
+      // Slideshow Section
+    'slideshow_title' => '与我们合作，开启您的财富成功之路',
+    'slideshow_text' => '为您提供精准、安全、深入的资产管理和投资机会。',
+    'discover_now' => '立即探索',
+
+    // Introduction Section
+    'introduction' => '公司介绍',
+    'introduction_text' => 'Volta Asia 是一家领先的资产管理集团，专注于自主交易。我们的团队由来自知名金融机构的专家组成，结合深厚的经验、丰富的专业知识和先进的交易技术。我们致力于提供卓越的投资管理服务，以最小的风险实现最佳回报，为客户带来长期稳定的收益。',
+
+    // Why Choose Us
+    'why_choose' => '为什么选择 Volta Asia？',
+    'proprietary_trading' => '自主交易专业团队',
+    'proprietary_trading_text' => '我们专注于自主交易，处于金融行业的最前沿。凭借量化金融分析和交易的丰富经验，我们的团队深入理解全球金融市场的复杂性，确保每一次投资都经过严格的分析和风险评估。',
+
+    'personalized_solution' => '个性化投资方案',
+    'personalized_solution_text' => '我们深知每位投资者都有不同的需求和目标，因此提供定制化投资方案，帮助客户实现财务自由和财富增长。我们的个性化服务确保投资策略与客户的风险偏好和长期规划相匹配。',
+
+    'proven_track_record' => '卓越投资回报记录',
+    'proven_track_record_text' => '我们拥有长期稳定的投资回报记录，始终为客户提供可靠的金融解决方案。我们的专业投资团队利用数据分析、市场趋势研究和风险管理策略，以实现持续盈利。',
+
+    'commitment_values' => '信任与透明度',
+    'commitment_values_text' => '我们坚信，信任、透明度和责任感是成功的基础。我们的使命是与客户建立长期合作关系，确保所有投资决策都是基于诚实、公正和专业的原则。',
+
+    // Contact
+    'contact_us' => '联系我们',
+
+      // Consultant Section
+      'consultant_question' => '您需要顾问吗？',
+      'consultant_text' => '请随时通过support@voltaasia.com联系我们，或填写联系表单。',
+  
+      // Explore Products & Services Section
+      'explore_products' => '探索我们的产品与服务',
+  
+      // Fund Management Products
+      'fund_management' => '基金管理产品',
+      'fund_management_text' => '我们的基金管理产品经过精心设计，适用于具有不同风险偏好的投资者。无论您是寻求稳定收益还是高增长机会，我们都提供量身定制的解决方案，以满足您的投资需求。',
+  
+      // Financial Planning
+      'financial_planning' => '财务规划',
+      'financial_planning_text' => '我们的专业财务规划师提供一站式、全方位的投资策略和解决方案。通过分析您的个人或企业需求，我们制定个性化的财务计划，以确保长期成功。',
+  
+      // Personal Coaching
+      'personal_coaching' => '个人财务指导',
+      'personal_coaching_text' => '我们提供个人财务指导服务，为客户提供改善财务习惯的工具和思维方式。我们的个性化指导课程帮助您在财务旅程中获得清晰的目标、自信和掌控力。',
+    
+       // General
+    'products_services' => '产品与服务',
+    'products_services_title' => '我们的 <span class="in-highlight">产品与服务</span>',
+    'products_services_text' => '探索我们专为满足您独特的财务需求和目标而量身定制的解决方案。',
+
+    // Sections
+    'services' => '服务',
+    'services_text' => '我们提供各种投资选择，以满足客户的不同需求，包括基金管理、财务规划和个人教练服务。',
+
+    'fund_management' => '基金管理',
+    'fund_management_text' => '我们的基金管理产品经过专业开发，适用于不同风险承受能力的投资者。我们的专业基金经理随时监控这些产品，以确保最佳性能和稳定性。',
+
+    'investment_strategies' => '投资策略',
+    'investment_strategies_text' => '我们的专家财务规划师提供全面的一站式投资策略和解决方案，满足客户的个性化需求。',
+
+    'personal_coaching' => '个人教练',
+    'personal_coaching_text' => '我们提供个人教练服务，帮助客户增强对金钱的管理能力，并专注于实现他们的财务目标。',
+
+    'investment_solutions' => '投资解决方案',
+    'investment_solutions_text' => '我们致力于提供卓越的投资解决方案和服务，精心定制以满足每位客户的独特需求和偏好。',
+
+     // Performance Section
+     'performance' => '业绩表现',
+     'portfolio_managers_performance' => '投资组合经理的表现',
+     'portfolio_performance_text' => '我们强调个人责任制来管理客户的资金。为了确保我们的交易员以最高标准的谨慎和责任行事，他们需要将自己的资金与客户的资金一起投资。无论您选择哪位投资组合经理，您都可以信赖他们的奉献精神、警惕性和不懈努力，以最大化您的长期回报。',
+     
+     // Contact Section
+     'want_to_know_more' => '想了解更多信息？',
+     
+     'tags' => '标签',
+     'tag_arbitrage' => '套利',
+     'tag_forex' => '外汇',
+
+
 ];

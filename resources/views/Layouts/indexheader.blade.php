@@ -72,11 +72,12 @@
                 <div class="uk-card uk-card-secondary uk-card-small uk-card-body uk-border-rounded">
                     <div class="uk-grid uk-text-small" data-uk-grid>
                         <div class="uk-width-3-4@m uk-visible@m">
-                            <p>Trading involves substantial risk and may result in the loss of your invested/greater that your invested capital, respectively.</p>
+                            <p>{{ __('public.trading_risk') }}</p>
+
                         </div>
                         <div class="uk-width-expand@m uk-text-center uk-text-right@m">
                             <a class="uk-margin-right" href="/contact"><i class="fas fa-comment-alt uk-margin-small-right"></i>{{ __('public.contact')}}</a>
-                            <a href="#"><i class="fas fa-phone-alt uk-margin-small-right uk-margin-small-left"></i>1-800-123-4567</a>
+                           
                         </div>
                     </div>
                 </div>
